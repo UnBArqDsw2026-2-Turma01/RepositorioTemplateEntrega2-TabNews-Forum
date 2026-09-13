@@ -1,13 +1,53 @@
-<!-- docs/_sidebar.md -->
+- [Início](README.md)
 
-- [Home](/docs)
-- [Projetos](/docs/Projeto/Projeto.md)
+- [Projeto](Projeto/Projeto.md)
 
-- **Base**
-  - [1. Desenho de Software (Modelagem)](/docs/Base/1.Modelagem.md)
-  - Relatórios
-      - [1.1.1. SubEquipe_01](/docs/Base/Relatórios/1.1.1.SubEquipe_01.md)
-      - [1.1.2. SubEquipe_02](/docs/Base/Relatórios/1.1.2.SubEquipe_02.md)
-      - [1.1.3. SubEquipe_03](/docs/Base/Relatórios/1.1.3.SubEquipe_03.md)
-  - [1.2. Participações - Modelagem](/docs/Base/1.2.ParticipacoesModelagem.md)
-  - [1.3. Iniciativas Extras - Modelagem](/docs/Base/1.3.IniciativasExtras.md)
+- **Guias**
+
+  - [Artefato Padrão](Base/ArtefatoPadrao.md)
+
+  - [Ata Padrão](Base/AtaPadrao.md)
+
+- **Modelagem**
+
+  - [1. Desenho de Software (Modelagem)](Base/1.Modelagem.md)
+
+  - **Relatórios**
+
+    - **SubEquipe 01**
+
+      - [1. Modelagem Estática na Notação UML](Base/Relatórios/SubEquipe_01/ModelagemEstatica.md)
+
+      - [2. Modelagem Dinâmica na Notação UML](Base/Relatórios/SubEquipe_01/ModelagemDinamica.md)
+
+      - [3. IA Generativa](Base/Relatórios/SubEquipe_01/IAGenerativa.md)
+
+    - **SubEquipe 02**
+
+      - [1. Modelagem Estática na Notação UML](Base/Relatórios/SubEquipe_02/ModelagemEstatica.md)
+
+      - [2. Modelagem Dinâmica na Notação UML](Base/Relatórios/SubEquipe_02/ModelagemDinamica.md)
+
+      - [3. IA Generativa](Base/Relatórios/SubEquipe_02/IAGenerativa.md)
+
+    - **SubEquipe 03**
+
+      - [1. Modelagem Estática na Notação UML](Base/Relatórios/SubEquipe_03/ModelagemEstatica.md)
+
+      - [2. Modelagem Dinâmica na Notação UML](Base/Relatórios/SubEquipe_03/ModelagemDinamica.md)
+
+      - [3. IA Generativa](Base/Relatórios/SubEquipe_03/IAGenerativa.md)
+
+  - [Participações - Modelagem](Base/1.2.ParticipacoesModelagem.md)
+
+  - [Iniciativas Extras - Modelagem](Base/1.3.IniciativasExtras.md)
+
+- **Atas de Reunião**
+
+  - [Reuniões Gerais](Base/Atas/ReunioesGerais.md)
+
+  - [Subgrupo 01](Base/Atas/Subgrupo01.md)
+
+  - [Subgrupo 02](Base/Atas/Subgrupo02.md)
+
+  - [Subgrupo 03](Base/Atas/Subgrupo03.md)
