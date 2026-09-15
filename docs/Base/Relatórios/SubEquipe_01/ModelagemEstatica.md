@@ -2,81 +2,97 @@
 
 ## Descrição
 
-Este documento apresenta a modelagem estática desenvolvida pela **SubEquipe_01**, no escopo do **FOCO_01 — Modelagem Estática na Notação UML**, referente à Entrega 2 do projeto.
+Modelagem estática da SubEquipe_01, no escopo do **FOCO_01 — Modelagem Estática na Notação UML**. O documento apresenta a modelagem estrutural do sistema Fórum, utilizando a notação UML para representar suas principais classes, atributos, métodos e relacionamentos.
 
-A modelagem tem como finalidade representar a estrutura do software desenvolvido pela equipe, evidenciando suas principais classes, características e relacionamentos, de forma a proporcionar uma visão estruturada do sistema.
-
----
+A modelagem tem como objetivo representar a estrutura do software de forma clara, permitindo visualizar os principais elementos que compõem o sistema e suas relações.
 
 ## Objetivo
 
-Elaborar uma modelagem estática utilizando a notação UML, por meio de um **Diagrama de Classes**, para representar os principais elementos estruturais do sistema e os relacionamentos estabelecidos entre eles.
-
-A modelagem busca contribuir para a compreensão da organização da solução, permitindo visualizar as principais classes do sistema, suas responsabilidades, atributos, métodos e associações. Além disso, o modelo serve como apoio à análise, ao desenvolvimento e à evolução do software, relacionando os elementos estruturais aos requisitos e às funcionalidades definidas para o projeto.
-
----
+Elaborar uma modelagem estática em UML para o sistema Fórum, evidenciando suas principais classes, responsabilidades, atributos, métodos e relacionamentos, de forma a facilitar a compreensão da estrutura do software e apoiar sua implementação, manutenção e evolução.
 
 ## Metodologia
 
-A elaboração do Diagrama de Classes foi realizada a partir da análise do sistema e de suas principais funcionalidades, buscando identificar os elementos estruturais necessários para representar a solução proposta pela equipe.
+A modelagem estática foi elaborada a partir da análise do escopo do produto, das funcionalidades previstas para o sistema e dos artefatos desenvolvidos anteriormente pela equipe.
 
-Inicialmente, foram analisados os requisitos e as funcionalidades definidos para o projeto, com o objetivo de identificar as principais entidades e responsabilidades presentes no domínio do sistema. A partir dessa análise, foram levantadas as classes relevantes para a representação do software, bem como seus respectivos atributos, métodos e relacionamentos.
+O processo envolveu a identificação das principais entidades e responsabilidades do sistema, buscando determinar quais elementos deveriam ser representados como classes, seus respectivos atributos e métodos, além dos relacionamentos existentes entre elas.
 
-Em seguida, os elementos identificados foram organizados de acordo com os conceitos da notação UML, buscando representar de forma consistente as associações, generalizações, dependências e demais relacionamentos aplicáveis ao sistema.
+Para a elaboração do modelo, foram consideradas as principais funcionalidades do Fórum, incluindo cadastro e autenticação de usuários, criação e visualização de publicações, respostas, organização por categorias, avaliações, interações e busca de discussões.
 
-A modelagem foi desenvolvida de forma colaborativa pelos integrantes da **SubEquipe_01**, utilizando as ferramentas adotadas pela equipe para elaboração e documentação dos artefatos. Após a elaboração inicial, o modelo foi analisado e revisado pelos integrantes, buscando verificar sua consistência com os requisitos e com os demais artefatos do projeto.
+A modelagem foi desenvolvida de forma colaborativa pelos integrantes da SubEquipe_01, utilizando a notação UML para representar os elementos estruturais identificados.
 
-As decisões de modelagem foram fundamentadas nos conceitos da UML e em princípios de Engenharia de Software, buscando produzir uma representação clara, consistente e adequada à estrutura do sistema desenvolvido.
-
----
+As decisões de modelagem buscaram manter um nível de abstração adequado ao objetivo da entrega, priorizando os elementos diretamente relacionados ao funcionamento do sistema e evitando detalhamentos de implementação que não fossem necessários para a representação estática.
 
 ## Escolha da Modelagem
 
-Para atender ao **FOCO_01 — Modelagem Estática na Notação UML**, a **SubEquipe_01** optou pela elaboração de um **Diagrama de Classes**.
+Para o **FOCO_01 — Modelagem Estática na Notação UML**, a SubEquipe_01 adotou o **Diagrama de Classes** como modelo principal.
 
-A escolha desse modelo foi motivada pela necessidade de representar a estrutura do sistema Fórum, evidenciando os principais elementos que compõem seu domínio e os relacionamentos existentes entre eles.
+A escolha foi realizada por esse modelo permitir representar de forma direta a estrutura do sistema, evidenciando as classes, seus atributos, métodos e os relacionamentos existentes entre os elementos.
 
-O Diagrama de Classes permite representar de forma detalhada as classes do sistema, seus atributos, métodos e relacionamentos, proporcionando uma visão estruturada da solução. Dessa forma, o modelo possibilita relacionar os elementos identificados durante a análise dos requisitos às responsabilidades atribuídas às diferentes partes do sistema.
+O Diagrama de Classes também permite estabelecer uma visão estrutural do domínio do Fórum, relacionando funcionalidades previstas no escopo do produto aos elementos que compõem a solução.
 
-Além disso, a escolha do Diagrama de Classes permite estabelecer uma representação que pode servir como apoio ao desenvolvimento do software, facilitando a compreensão da estrutura da aplicação e contribuindo para futuras decisões de implementação e evolução do sistema.
+Além do modelo geral do sistema, foi elaborado um recorte específico relacionado ao **Login e Autenticação**, permitindo detalhar a contribuição realizada pela SubEquipe_01 nessa parte da modelagem.
 
----
-
-## Conteúdo
+## Modelagem Estática
 
 ### Diagrama de Classes
 
-A seguir, é apresentado o **Diagrama de Classes** elaborado pela **SubEquipe_01**, utilizando a notação UML.
+O Diagrama de Classes apresenta uma visão geral da estrutura do sistema Fórum, representando os principais elementos necessários para o funcionamento das funcionalidades previstas no escopo do produto.
 
-<p align="center">Figura 1: Diagrama de Classes do sistema Fórum. Fonte: SubEquipe_01 (2026).</p>
+Entre os elementos representados estão as classes relacionadas aos usuários, autenticação, sessões, publicações, comentários, categorias, avaliações, interações e busca.
 
----
+A organização das classes busca demonstrar as responsabilidades de cada elemento e os relacionamentos existentes entre eles, proporcionando uma visão estrutural do sistema.
+
+<div align="center">
+
+<img src="../../../Base/images/diagrama_completo.png" alt="Diagrama de Classes completo do sistema Fórum" width="800">
+
+</div>
+
+<p align="center">Figura 1: Diagrama de Classes completo do sistema Fórum. Fonte: SubEquipe_01 (2026).</p>
+
+### Recorte — Login e Autenticação
+
+Como detalhamento da modelagem, foi elaborado um recorte do Diagrama de Classes relacionado ao processo de **Login e Autenticação**.
+
+O recorte representa as principais classes envolvidas nesse processo: `Usuario`, `Credencial`, `Autenticacao` e `Sessao`.
+
+A classe `Usuario` representa o usuário do sistema e mantém sua relação com as credenciais utilizadas no processo de autenticação. A classe `Credencial` concentra as informações necessárias para validação das credenciais de acesso.
+
+A classe `Autenticacao` é responsável por representar o processo de validação e autenticação do usuário, enquanto a classe `Sessao` representa a sessão criada após a autenticação, incluindo informações relacionadas ao seu controle e validade.
+
+<div align="center">
+
+<img src="../../../Base/images/" alt="Diagrama de Classes completo do sistema Fórum" width="800">
+
+</div>
+
+<p align="center">Figura 2: Recorte do Diagrama de Classes — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
 
 ## Senso Crítico e Decisões de Modelagem
 
-Durante a elaboração do Diagrama de Classes, a equipe analisou quais elementos deveriam ser representados no modelo, considerando sua relevância para o domínio do sistema e sua relação com as funcionalidades definidas para o projeto.
+Durante a elaboração do modelo, a SubEquipe_01 avaliou quais elementos deveriam ser representados no Diagrama de Classes, considerando o escopo definido para o sistema e o nível de abstração adequado para a entrega.
 
-Um dos principais pontos considerados foi o nível adequado de detalhamento do diagrama. A representação de elementos em excesso poderia comprometer sua legibilidade, enquanto uma modelagem excessivamente simplificada poderia deixar de representar responsabilidades e relacionamentos importantes do sistema.
+Foi priorizada a representação das classes e relacionamentos diretamente relacionados às principais funcionalidades do Fórum, evitando a inclusão de elementos excessivamente específicos de implementação.
 
-Dessa forma, a equipe buscou estabelecer um equilíbrio entre detalhamento e clareza, priorizando as classes e relacionamentos diretamente relacionados às principais funcionalidades do Fórum.
+No recorte de Login e Autenticação, foram destacadas as classes `Usuario`, `Credencial`, `Autenticacao` e `Sessao`, por representarem os principais elementos envolvidos no processo de acesso ao sistema.
 
-As decisões relacionadas à definição das classes, atributos, métodos e relacionamentos foram discutidas e avaliadas pelos integrantes da SubEquipe_01, buscando manter a consistência entre a modelagem proposta e a solução desenvolvida pela equipe.
-
----
+A definição dos relacionamentos buscou representar as responsabilidades e dependências entre os elementos de forma coerente com o funcionamento esperado da aplicação.
 
 ## Referências
 
-As referências utilizadas para a elaboração deste artefato devem ser apresentadas em ordem alfabética.
+LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [**https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes**](https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes). Acesso em: 15 set. 2026.
 
----
+OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [**https://www.omg.org/spec/UML/2.5.1/PDF**](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [**https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0**](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
-| :--- | :---: |
-| Arthur Fernandes |  |
-|  |  |
-|  |  |
+|:---|:---:|
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
+| | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -85,9 +101,10 @@ As referências utilizadas para a elaboração deste artefato devem ser apresent
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
-| :---: | :---: | :--- | :---: | :---: | :--- |
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj) | — | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
-| 1.1 | 14/09/2026 | Atualização da documentação para definição do Diagrama de Classes como modelo estático. | [Arthur Fernandes](https://github.com/arthurfernandesj) | — | Adequação da descrição, objetivo, metodologia e justificativa da modelagem ao Diagrama de Classes. |
+|:------:|:----:|:----------|:----------|:------------|:-------------------|
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Criação da estrutura inicial do documento e definição do escopo da modelagem estática. |
+| 1.1 | 14/09/2026 | Elaboração da modelagem relacionada ao Login e Autenticação. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Desenvolvimento do recorte do Diagrama de Classes referente ao Login e Autenticação, contemplando as principais classes e seus relacionamentos. |
+| 1.2 | 15/09/2026 | Ajustes e atualização do documento de Modelagem Estática. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Ajustes na estrutura e descrição do documento, atualização da modelagem para o Diagrama de Classes, organização do modelo completo e adequação do recorte de Login e Autenticação. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
