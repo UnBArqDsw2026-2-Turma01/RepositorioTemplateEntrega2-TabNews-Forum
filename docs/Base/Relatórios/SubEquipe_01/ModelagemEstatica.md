@@ -48,7 +48,16 @@ A organização das classes busca demonstrar as responsabilidades de cada elemen
 
 </div>
 
-<p align="center">Figura 1: Diagrama de Classes completo do sistema Fórum. Fonte: SubEquipe_01 (2026).</p>
+## Diagrama de Pacotes 
+
+### Diagrama de Pacotes
+
+O diagrama de pacotes do módulo de **Login e Cadastro** do Fórum TabNews, desenvolvido pelo **Grupo 2**, representa a organização dos principais componentes planejados para essa parte do sistema e as dependências existentes entre eles.
+
+A estrutura foi organizada com base no princípio de **arquitetura em camadas**, buscando separar as responsabilidades de cada parte do sistema. A camada de **apresentação** reúne os elementos relacionados às telas de Login e Cadastro e à interação com o usuário. A camada de **aplicação** concentra as funcionalidades e regras necessárias para realizar o login, o cadastro e as validações dos usuários. Já a camada de **dados** é responsável pelo gerenciamento das informações dos usuários e pela comunicação com os mecanismos de armazenamento e autenticação.
+
+A separação dessas responsabilidades permite organizar melhor o código e facilita a manutenção e evolução da funcionalidade. As dependências entre os pacotes seguem o fluxo da aplicação, partindo da camada de apresentação para a camada de aplicação e, posteriormente, para a camada de dados.
+
 
 ### Recorte — Login e Autenticação
 
@@ -77,6 +86,8 @@ Foi priorizada a representação das classes e relacionamentos diretamente relac
 No recorte de Login e Autenticação, foram destacadas as classes `Usuario`, `Credencial`, `Autenticacao` e `Sessao`, por representarem os principais elementos envolvidos no processo de acesso ao sistema.
 
 A definição dos relacionamentos buscou representar as responsabilidades e dependências entre os elementos de forma coerente com o funcionamento esperado da aplicação.
+
+Dentro do módulo, foi adotada uma organização baseada em **arquitetura em camadas**, na qual a camada de apresentação (`presentation`) utiliza os recursos disponibilizados pela camada de aplicação (`application`), que concentra as operações de realizar login, cadastrar usuário e validar os dados informados. A camada de aplicação, por sua vez, utiliza a camada de dados (`data`), responsável pelo acesso e gerenciamento das informações de usuários e pelos mecanismos relacionados à autenticação. Dessa forma, as dependências seguem o fluxo `presentation → application → data`, mantendo cada camada responsável por uma parte específica do funcionamento do módulo e contribuindo para a organização, manutenção e evolução do sistema.
 
 ## Referências
 
