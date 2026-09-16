@@ -30,7 +30,7 @@ A escolha foi realizada por esse modelo permitir representar de forma direta a e
 
 O Diagrama de Classes também permite estabelecer uma visão estrutural do domínio do Fórum, relacionando funcionalidades previstas no escopo do produto aos elementos que compõem a solução.
 
-Além do modelo geral do sistema, foi elaborado um recorte específico relacionado ao **Login e Autenticação**, permitindo detalhar a contribuição realizada pela SubEquipe_01 nessa parte da modelagem.
+Além do modelo geral do sistema, foi elaborado um recorte específico relacionado ao **Login e Autenticação**, permitindo detalhar uma parte da modelagem e evidenciar a contribuição individual realizada nessa funcionalidade.
 
 ## Modelagem Estática
 
@@ -43,21 +43,10 @@ Entre os elementos representados estão as classes relacionadas aos usuários, a
 A organização das classes busca demonstrar as responsabilidades de cada elemento e os relacionamentos existentes entre eles, proporcionando uma visão estrutural do sistema.
 
 <div align="center">
-
 <img src="../../../Base/images/diagrama_completo.png" alt="Diagrama de Classes completo do sistema Fórum" width="800">
-
 </div>
 
-## Diagrama de Pacotes 
-
-### Diagrama de Pacotes
-
-O diagrama de pacotes do módulo de **Login e Cadastro** do Fórum TabNews, desenvolvido pelo **Grupo 2**, representa a organização dos principais componentes planejados para essa parte do sistema e as dependências existentes entre eles.
-
-A estrutura foi organizada com base no princípio de **arquitetura em camadas**, buscando separar as responsabilidades de cada parte do sistema. A camada de **apresentação** reúne os elementos relacionados às telas de Login e Cadastro e à interação com o usuário. A camada de **aplicação** concentra as funcionalidades e regras necessárias para realizar o login, o cadastro e as validações dos usuários. Já a camada de **dados** é responsável pelo gerenciamento das informações dos usuários e pela comunicação com os mecanismos de armazenamento e autenticação.
-
-A separação dessas responsabilidades permite organizar melhor o código e facilita a manutenção e evolução da funcionalidade. As dependências entre os pacotes seguem o fluxo da aplicação, partindo da camada de apresentação para a camada de aplicação e, posteriormente, para a camada de dados.
-
+<p align="center">Figura 1: Diagrama de Classes completo do sistema Fórum. Fonte: SubEquipe_01 (2026).</p>
 
 ### Recorte — Login e Autenticação
 
@@ -67,12 +56,10 @@ O recorte representa as principais classes envolvidas nesse processo: `Usuario`,
 
 A classe `Usuario` representa o usuário do sistema e mantém sua relação com as credenciais utilizadas no processo de autenticação. A classe `Credencial` concentra as informações necessárias para validação das credenciais de acesso.
 
-A classe `Autenticacao` é responsável por representar o processo de validação e autenticação do usuário, enquanto a classe `Sessao` representa a sessão criada após a autenticação, incluindo informações relacionadas ao seu controle e validade.
+A classe `Autenticacao` representa o processo de validação e autenticação do usuário, enquanto a classe `Sessao` representa a sessão criada após a autenticação, incluindo informações relacionadas ao seu controle e validade.
 
 <div align="center">
-
-<img src="../../../Base/images/" alt="Diagrama de Classes completo do sistema Fórum" width="800">
-
+<img src="../../../Base/images/DiagramaS01.png" alt="Recorte do Diagrama de Classes de Login e Autenticação" width="800">
 </div>
 
 <p align="center">Figura 2: Recorte do Diagrama de Classes — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
@@ -87,15 +74,44 @@ No recorte de Login e Autenticação, foram destacadas as classes `Usuario`, `Cr
 
 A definição dos relacionamentos buscou representar as responsabilidades e dependências entre os elementos de forma coerente com o funcionamento esperado da aplicação.
 
-Dentro do módulo, foi adotada uma organização baseada em **arquitetura em camadas**, na qual a camada de apresentação (`presentation`) utiliza os recursos disponibilizados pela camada de aplicação (`application`), que concentra as operações de realizar login, cadastrar usuário e validar os dados informados. A camada de aplicação, por sua vez, utiliza a camada de dados (`data`), responsável pelo acesso e gerenciamento das informações de usuários e pelos mecanismos relacionados à autenticação. Dessa forma, as dependências seguem o fluxo `presentation → application → data`, mantendo cada camada responsável por uma parte específica do funcionamento do módulo e contribuindo para a organização, manutenção e evolução do sistema.
+Durante a construção do modelo, também foi avaliada a necessidade de manter uma representação suficientemente abrangente para contemplar as principais funcionalidades do Fórum, sem tornar o diagrama excessivamente complexo ou específico de implementação.
 
-## Referências
+## Decisões e Consensos da SubEquipe
 
-LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [**https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes**](https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes). Acesso em: 15 set. 2026.
+Durante a elaboração da modelagem estática, foram discutidas as principais entidades do sistema e a forma mais adequada de representar suas responsabilidades e relacionamentos.
 
-OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [**https://www.omg.org/spec/UML/2.5.1/PDF**](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
+Como decisão da SubEquipe_01, foi adotado o **Diagrama de Classes** como representação principal da modelagem estática, por permitir apresentar de forma integrada os elementos estruturais do sistema Fórum.
 
-UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [**https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0**](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
+Também foi definido que o modelo geral deveria contemplar as principais funcionalidades identificadas no escopo do produto, incluindo usuários, autenticação, publicações, comentários, categorias, avaliações, interações e busca.
+
+Para o processo de Login e Autenticação, foi definido um recorte específico com as classes `Usuario`, `Credencial`, `Autenticacao` e `Sessao`, permitindo detalhar essa parte da estrutura do sistema.
+
+As decisões apresentadas nesta seção foram consolidadas na versão utilizada pela SubEquipe_01 para a entrega.
+
+## Pontos de Vista dos Integrantes
+
+### Arthur Fernandes
+
+A elaboração do Diagrama de Classes permitiu compreender melhor como as funcionalidades do Fórum podem ser representadas estruturalmente por meio de classes e relacionamentos.
+
+A construção do modelo também evidenciou a importância de definir responsabilidades para cada classe antes de estabelecer seus relacionamentos, evitando representar funcionalidades diretamente como elementos isolados do sistema.
+
+### Giovana Fontes
+
+A modelagem do processo de Login e Autenticação permitiu compreender a separação das responsabilidades entre usuário, credenciais, autenticação e sessão.
+
+O recorte também contribuiu para visualizar como o processo de autenticação pode ser representado estruturalmente, facilitando a compreensão das relações entre os elementos envolvidos.
+
+## Participação e Evidências
+
+A participação dos integrantes da SubEquipe_01 foi distribuída de acordo com as atividades realizadas durante a elaboração da modelagem estática.
+
+| Integrante | Contribuição | Evidência |
+|:---|:---|:---|
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | Estrutura geral do Diagrama de Classes, organização da documentação e ajustes da modelagem. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/2) |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | Modelagem do recorte de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/1) |
+
+As evidências apresentadas devem permitir a identificação da participação individual de cada integrante por meio do histórico de versões, commits ou Pull Requests do repositório.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -103,9 +119,19 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [**https://sites.
 |:---|:---:|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | |
-| | |
+
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
+
+---
+
+## Referências
+
+LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes](https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes). Acesso em: 15 set. 2026.
+
+OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
 
 ---
 
@@ -113,9 +139,10 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [**https://sites.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Criação da estrutura inicial do documento e definição do escopo da modelagem estática. |
-| 1.1 | 14/09/2026 | Elaboração da modelagem relacionada ao Login e Autenticação. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Desenvolvimento do recorte do Diagrama de Classes referente ao Login e Autenticação, contemplando as principais classes e seus relacionamentos. |
-| 1.2 | 15/09/2026 | Ajustes e atualização do documento de Modelagem Estática. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Ajustes na estrutura e descrição do documento, atualização da modelagem para o Diagrama de Classes, organização do modelo completo e adequação do recorte de Login e Autenticação. |
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Criação da estrutura inicial do documento, definição do escopo da modelagem estática e organização das primeiras seções da documentação. |
+| 1.1 | 14/09/2026 | Elaboração do Diagrama de Classes completo do sistema Fórum. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Desenvolvimento do modelo estrutural completo do sistema, contemplando as classes Usuario, Credencial, Autenticacao, Sessao, RecuperacaoSenha, Perfil, Publicacao, Comentario, Categoria, Avaliacao, Interacao e Busca, além da definição de seus atributos, métodos, relacionamentos e multiplicidades. |
+| 1.2 | 14/09/2026 | Elaboração da modelagem relacionada ao Login e Autenticação. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Desenvolvimento do recorte do Diagrama de Classes referente ao Login e Autenticação, contemplando as classes Usuario, Credencial, Autenticacao e Sessao, seus atributos, métodos e principais relacionamentos. |
+| 1.3 | 15/09/2026 | Ajustes e atualização do documento de Modelagem Estática. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Revisão e integração das contribuições da SubEquipe_01, ajustes na estrutura e descrição do documento, organização do Diagrama de Classes completo, adequação do recorte de Login e Autenticação, correção dos caminhos das imagens e atualização da documentação para a entrega. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
