@@ -1,13 +1,5 @@
 - [Início](README.md)
 
-- [Projeto](Projeto/Projeto.md)
-
-- **Guias**
-
-  - [Artefato Padrão](Base/ArtefatoPadrao.md)
-
-  - [Ata Padrão](Base/AtaPadrao.md)
-
 - **Modelagem**
 
   - [1. Desenho de Software (Modelagem)](Base/1.Modelagem.md)
