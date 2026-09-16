@@ -34,7 +34,7 @@ Inserir aqui a modelagem dinâmica elaborada pela **SubEquipe_02**, acompanhada 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
+|Isaac Menezes|Teste inicial de permissão de contribuição|
 |      |                   |
 |      |                   |
 
