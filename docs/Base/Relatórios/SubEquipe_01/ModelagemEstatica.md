@@ -43,7 +43,7 @@ Entre os elementos representados estão as classes relacionadas aos usuários, a
 A organização das classes busca demonstrar as responsabilidades de cada elemento e os relacionamentos existentes entre eles, proporcionando uma visão estrutural do sistema.
 
 <div align="center">
-<img src="../../../Base/images/diagrama_completo.png" alt="Diagrama de Classes completo do sistema Fórum" width="800">
+<img src="Base/images/diagrama_completo.png" alt="Diagrama de Classes completo do sistema Fórum" width="800">
 </div>
 
 <p align="center">Figura 1: Diagrama de Classes completo do sistema Fórum. Fonte: SubEquipe_01 (2026).</p>
@@ -59,7 +59,7 @@ A classe `Usuario` representa o usuário do sistema e mantém sua relação com 
 A classe `Autenticacao` representa o processo de validação e autenticação do usuário, enquanto a classe `Sessao` representa a sessão criada após a autenticação, incluindo informações relacionadas ao seu controle e validade.
 
 <div align="center">
-<img src="../../../Base/images/DiagramaS01.png" alt="Recorte do Diagrama de Classes de Login e Autenticação" width="800">
+<img src="Base/images/diagrama_login.png" alt="Recorte do Diagrama de Classes de Login e Autenticação" width="800">
 </div>
 
 <p align="center">Figura 2: Recorte do Diagrama de Classes — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
