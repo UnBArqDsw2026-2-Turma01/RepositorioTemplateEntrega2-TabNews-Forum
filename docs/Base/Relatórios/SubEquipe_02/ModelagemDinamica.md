@@ -45,7 +45,7 @@ Inserir aqui a modelagem dinâmica elaborada pela **SubEquipe_02**, acompanhada 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |   |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
-| 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |   |  | Apenas inserido nome. |
+| 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |Isaac Menezes Pereira |  | Apenas inserido nome. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
