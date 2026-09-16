@@ -70,16 +70,19 @@ Entretanto, as respostas geradas podem apresentar informações incompletas, int
 
 A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta de apoio e não como substituta da análise técnica dos integrantes. As decisões finais sobre os artefatos permaneceram sob responsabilidade da equipe.
 
-## Evidências de Utilização e Participação
-
-A participação dos integrantes neste foco deve ser comprovada por meio do histórico de versões do documento e dos commits realizados no repositório.
+## Evidências de Participação
 
 | Integrante | Atividade/Contribuição | Evidência |
 |:---|:---|:---|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração e organização do registro de IA Generativa, além da descrição de sua experiência e análise crítica. | [Commit/PR](INSERIR_LINK) |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro de sua experiência individual com IA Generativa e contribuição para a documentação do FOCO_03. | [Commit/PR](INSERIR_LINK) |
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | Estruturação, organização e revisão do documento de IA Generativa. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/a7f2323f98fd069ac83a71915630125dbd4061c1) |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro da experiência individual e contribuição para o FOCO_03. | [Commit](LINK) |
 
-As evidências devem permitir identificar a participação individual de cada integrante no desenvolvimento deste foco.
+## Evidências do Uso de IA Generativa
+
+| Integrante | Ferramenta | Finalidade | Evidência |
+|:---|:---|:---|:---|
+| Arthur Fernandes | ChatGPT | Apoio na análise, organização e revisão das atividades da entrega. | [Registro/Print](https://chatgpt.com/share/6aaac7eb-3590-83e9-924b-d533d55ca80b) |
+| Giovana Fontes | ChatGPT | Apoio nas atividades relacionadas à modelagem e documentação. | [Registro/Print](LINK) |
 
 ## Nível de Contribuição dos Integrantes
 
