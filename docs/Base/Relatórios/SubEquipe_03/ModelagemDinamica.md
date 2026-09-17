@@ -190,6 +190,48 @@ O Diagrama de Comunicação representa o fluxo de avaliação de um conteúdo (v
 <p align="center">Figura 3: Diagrama de Comunicação — avaliação de conteúdo. Fonte: SubEquipe_03 (2026).</p>
 -->
 
+### 4. Diagrama de Estados
+
+```plantuml
+@startuml
+title Ciclo de Vida do Conteúdo na Página da Postagem
+
+skinparam nodesep 30
+skinparam ranksep 55
+
+state "Rascunho" as Rascunho
+state "Publicado" as Publicado
+state "Em revisão" as EmRevisao
+state "Removido" as Removido
+
+[*] -down-> Rascunho : criar publicação
+Rascunho -down-> Publicado : publicar [corpo válido] /\nregistrar publicação, creditar autor
+[*] -down-> Publicado : comentar [usuário autenticado] /\nregistrar publicação, creditar autor
+
+Publicado -down-> EmRevisao : denunciar [suspeita de abuso] /\ndebitar créditos
+EmRevisao -up-> Publicado : aprovar [moderador] /\nrestaurar créditos
+
+Publicado -down-> Removido : remover [autor ou moderador] /\ndebitar créditos
+EmRevisao -down-> Removido : confirmar remoção [moderador]
+Rascunho -down-> Removido : remover [autor]
+
+Removido -down-> [*]
+
+note right of Publicado
+  Único estado visível na Página da postagem.
+  Comentar e avaliar exigem este estado.
+end note
+
+note right of Removido
+  Transições bloqueadas:
+  Publicado não retorna a Rascunho.
+  Removido é final e não aceita alteração.
+end note
+@enduml
+```
+
+<p align="center">Figura 4: Diagrama de Estados — ciclo de vida do conteúdo. Fonte: SubEquipe_03 (2026).</p>
+
 ## Referências
 
 BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. **UML: Guia do Usuário**. 2. ed. Rio de Janeiro: Elsevier, 2005.
