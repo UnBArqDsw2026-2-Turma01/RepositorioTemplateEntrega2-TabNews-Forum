@@ -280,7 +280,11 @@ FOWLER, Martin. **UML Essencial: um breve guia para a linguagem-padrão de model
 
 OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 17 set. 2026.
 
+SERRANO, Milene. **Modelagem UML Dinâmica**. Notas de aula da disciplina Arquitetura e Desenho de Software (FGA0208). Brasília: Universidade de Brasília, 2026.
+
 UML-DIAGRAMS.ORG. **UML Sequence Diagrams**. Disponível em: [https://www.uml-diagrams.org/sequence-diagrams.html](https://www.uml-diagrams.org/sequence-diagrams.html). Acesso em: 17 set. 2026.
+
+UML-DIAGRAMS.ORG. **UML State Machine Diagrams**. Disponível em: [https://www.uml-diagrams.org/state-machine-diagrams.html](https://www.uml-diagrams.org/state-machine-diagrams.html). Acesso em: 17 set. 2026.
 
 UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-diagrams.org/use-case-diagrams.html](https://www.uml-diagrams.org/use-case-diagrams.html). Acesso em: 17 set. 2026.
 
