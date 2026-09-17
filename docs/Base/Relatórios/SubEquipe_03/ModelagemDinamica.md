@@ -305,6 +305,7 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 17/09/2026 | Adição do Diagrama de Casos de Uso e do Diagrama de Sequência da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração dos dois diagramas em PlantUML, definição da seção Escolha da Modelagem com a justificativa da complementaridade entre os diagramas de interação e inclusão das referências bibliográficas. |
+| 1.2 | 17/09/2026 | Adição do Diagrama de Estados do conteúdo da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Estados em PlantUML, com os estados Rascunho, Publicado, Em revisão e Removido, transições no formato evento/guarda/ação, notas das transições bloqueadas e do estado que torna o conteúdo visível, além da tabela de decisões de modelagem, do item 4 na Escolha da Modelagem e das referências correspondentes. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
