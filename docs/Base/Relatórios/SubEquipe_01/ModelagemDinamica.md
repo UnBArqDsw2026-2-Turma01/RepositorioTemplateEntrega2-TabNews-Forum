@@ -42,9 +42,19 @@ A representação utiliza a convenção gráfica da UML para diagramação de es
   <p><strong>Figura 2:</strong> Diagrama de Estados — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
 </div>
 
+O estado composto de cadastro centraliza todo o fluxo iterativo de registro: as etapas internas de coleta das credenciais, verificação dos parâmetros e confirmação do endereço de e-mail alternam-se caso ocorra alguma inconsistência nos dados, sem que essas validações intermediárias poluam o nível principal da aplicação. 
+
+Ao sair da etapa de autenticação, a transição guardada pela verificação de credenciais determina se o usuário é redirecionado com sucesso para a tela inicial (Home) ou se permanece retido na tentativa de acesso até a correção dos dados, garantindo que o ciclo só avance ao atingir o estado final de acesso autorizado.
+
 ## Referências
 
-*Listar as referências utilizadas, em ordem alfabética.*
+<p>
+  UNB FCTE — ARQDSW. Módulo de Modelagem. Disponível em: 
+  <a href="https://sites.google.com/view/unb-fcte-arqdsw/m%C3%B3dulos/m%C3%B3dulo-modelagem?authuser=0" target="_blank" rel="noopener noreferrer">
+    https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem
+  </a>. 
+  <small>Acesso em: 12 set. 2026.</small>
+</p>
 
 ## Nível de Contribuição dos Integrantes
 
@@ -60,6 +70,7 @@ A representação utiliza a convenção gráfica da UML para diagramação de es
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.1 | 17/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Giovana Fontes](https://github.com/GiovanaFontesS)  |  | Modelagem Dinamica, introdução e desenvolvimento |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 

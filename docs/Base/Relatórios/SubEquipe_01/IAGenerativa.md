@@ -55,12 +55,22 @@ A experiência demonstrou que a IA pode acelerar atividades de pesquisa, organiz
 
 **Lições aprendidas**
 
-PREENCHA
+Durante a elaboração da Entrega 02, utilizei a IA Generativa como ferramenta de apoio para revisar alguns conteúdos e esclarecer dúvidas que surgiram durante a realização das atividades. Também utilizei a ferramenta para entender melhor algumas funcionalidades do draw.io utilizadas na criação dos diagramas, além de auxiliar na correção e organização de alguns textos e na formatação da documentação.
 
+Uma das principais lições aprendidas foi perceber que a IA pode facilitar o desenvolvimento das atividades, principalmente quando surgem dúvidas pontuais, mas é necessário compreender e verificar as informações recebidas antes de utilizá-las no projeto.
 
 **Uso da IA Generativa e senso crítico**
 
-PREENCHA
+A IA Generativa foi utilizada principalmente para tirar dúvidas sobre ferramentas do draw.io, revisar conteúdos e auxiliar na correção de textos e formatação da documentação. As sugestões recebidas foram analisadas antes de serem utilizadas, realizando alterações quando necessário para adequá-las ao contexto do projeto.
+
+A experiência mostrou que a IA pode ser uma ferramenta útil para auxiliar na organização, revisão e esclarecimento de dúvidas, desde que seu uso seja acompanhado de análise e senso crítico.
+
+**Registros da utilização das IAs Generativas**
+
+* [**Conversa com o ChatGPT**](https://chatgpt.com/share/6aac69a3-4678-83e9-a2cc-72a15d4ef20e)
+* [**Conversa com o Gemini**](https://share.gemini.google/dljSZ62OEkTX)
+
+
 
 ## Análise Crítica do Uso de IA Generativa
 
@@ -75,14 +85,14 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 | Integrante | Atividade/Contribuição | Evidência |
 |:---|:---|:---|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | Estruturação, organização e revisão do documento de IA Generativa. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/a7f2323f98fd069ac83a71915630125dbd4061c1) |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro da experiência individual e contribuição para o FOCO_03. | [Commit](LINK) |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro da experiência individual e contribuição para o FOCO_03. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/7ba2bc6a445ed1a17b7ce53bc367f48e585f0d10) |
 
 ## Evidências do Uso de IA Generativa
 
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
 | Arthur Fernandes | ChatGPT | Apoio na análise, organização e revisão das atividades da entrega. | [Registro/Print](https://chatgpt.com/share/6aaac7eb-3590-83e9-924b-d533d55ca80b) |
-| Giovana Fontes | ChatGPT | Apoio nas atividades relacionadas à modelagem e documentação. | [Registro/Print](LINK) |
+| Giovana Fontes | ChatGPT | Apoio nas atividades relacionadas à modelagem e documentação. | [Registro/Print](https://share.gemini.google/dljSZ62OEkTX) |
 
 ## Nível de Contribuição dos Integrantes
 
