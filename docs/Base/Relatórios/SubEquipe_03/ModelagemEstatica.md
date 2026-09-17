@@ -109,6 +109,32 @@ REPO ..> I_SQL : <<JDBC>>
 
 ### 3. Diagrama de Implantação
 
+O Diagrama de Implantação apresenta a distribuição física da funcionalidade Página da
+Postagem, mostrando em quais nós os artefatos do Fórum são implantados e quais
+componentes cada artefato manifesta.
+
+O Dispositivo do usuário hospeda o ambiente de execução Navegador, onde é implantado o
+artefato Front-end do Fórum. Esse artefato manifesta os componentes da camada cliente:
+PostPageUI, CommentTree, MarkdownRenderer e TabCoinWidget. A comunicação com o servidor
+ocorre por HTTPS.
+
+A Plataforma de hospedagem executa a aplicação web e concentra dois artefatos. As Páginas
+pré-geradas correspondem à renderização antecipada da página da publicação, entregue já
+montada ao navegador e revalidada periodicamente. As Funções da API atendem às ações do
+usuário e manifestam os componentes do servidor: ForumController, ForumService,
+AuthService, TabCoinsService e Repositorio.
+
+O Servidor de banco de dados executa o PostgreSQL e recebe o artefato Esquema do Fórum,
+com as tabelas de conteúdos, usuários e avaliações. O acesso ocorre por conexão TCP a
+partir da plataforma de hospedagem. O Serviço de e-mail é um nó externo, acionado apenas
+para notificar o autor de um conteúdo quando ele recebe uma resposta.
+
+A separação entre páginas pré-geradas e funções de API explica uma característica central
+da funcionalidade: a leitura da publicação e da árvore de comentários não depende de
+requisições adicionais após o carregamento, enquanto responder e avaliar exigem chamadas
+autenticadas ao servidor. Essa distinção é a contrapartida física das interfaces
+representadas no Diagrama de Componentes.
+
 ```plantuml
 @startuml
 title Diagrama de Implantacao da Pagina da Postagem
