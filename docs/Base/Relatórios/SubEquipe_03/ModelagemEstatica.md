@@ -86,7 +86,8 @@ UML-DIAGRAMS.ORG. **UML Class Diagrams**. Disponível em: [https://www.uml-diagr
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
-| 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
+| 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Guilherme Moura](https://github.com/Guilherme-Moura) | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
+| 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
