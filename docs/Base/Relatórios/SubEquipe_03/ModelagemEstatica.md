@@ -24,9 +24,11 @@ A estratégia adotada utiliza diagramas estruturais complementares, de modo que 
 
 1. **Diagrama de Classes:** representa a estrutura lógica do domínio, com os atributos, as operações e os relacionamentos entre publicação, comentários, votos e usuários. Responde *"de que o sistema é feito"*.
 2. **Diagrama de Componentes:** representa a organização modular da aplicação, detalhando as unidades de software que compõem a página e os contratos estabelecidos entre elas. Responde *"como as partes se encaixam"*.
-3. **[Terceiro Tipo a Definir]:** a ser definido pela equipe.
+3. **Diagrama de Implantação:** representa a distribuição física da aplicação, indicando em quais nós os artefatos são implantados e quais componentes cada artefato manifesta. Responde *"onde o sistema é executado"*.
 
 A escolha conjunta do Diagrama de Classes e do Diagrama de Componentes é deliberada. Ambos são diagramas estruturais, mas operam em níveis de abstração distintos: segundo a especificação da UML 2.5.1 (OMG, 2017), o de classes descreve os classificadores do domínio, enquanto o de componentes descreve unidades substituíveis que encapsulam sua realização e se relacionam por interfaces providas e requeridas. Apresentá-los lado a lado permite discutir a passagem do modelo conceitual para a organização arquitetural, em vez de repetir a mesma informação em duas notações.
+
+O Diagrama de Implantação encerra essa progressão ao situar a aplicação no ambiente de execução. A continuidade entre os três modelos é explícita: os componentes definidos no Diagrama de Componentes são os mesmos manifestados pelos artefatos no Diagrama de Implantação, de modo que é possível percorrer o caminho que vai de uma classe de domínio até o nó em que ela efetivamente executa.
 
 O Diagrama de Classes foi posicionado como ponto de entrada por estabelecer o vocabulário de domínio reutilizado pelos demais modelos, conforme a abordagem descrita por Booch, Rumbaugh e Jacobson (2005).
 
@@ -118,21 +120,100 @@ REPO ..> I_SQL : <<JDBC>>
 
 <p align="center">Figura 2: Diagrama de Componentes da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
 
-### 3. [Nome do Terceiro Diagrama]
+### 3. Diagrama de Implantação
 
-[Breve descrição estrutural do terceiro diagrama, explicando qual aspecto estático da página completa ele resolve, a ser preenchida após a definição da equipe.]
+O Diagrama de Implantação apresenta a distribuição física da funcionalidade Página da
+Postagem, mostrando em quais nós os artefatos do Fórum são implantados e quais
+componentes cada artefato manifesta.
 
-<!-- ESPAÇO RESERVADO PARA O TERCEIRO DIAGRAMA
-     Imagem:       Base/images/SubEquipe_03/diagrama-3.png
-     Arquivo-fonte: Base/images/SubEquipe_03/fontes/diagrama-3.drawio
-     Ao inserir, substituir este comentário por:
+O Dispositivo do usuário hospeda o ambiente de execução Navegador, onde é implantado o
+artefato Front-end do Fórum. Esse artefato manifesta os componentes da camada cliente:
+PostPageUI, CommentTree, MarkdownRenderer e TabCoinWidget. A comunicação com o servidor
+ocorre por HTTPS.
 
-<div align="center">
-<img src="Base/images/SubEquipe_03/diagrama-3.png" alt="Diagrama 3 da Página da postagem" width="800">
-</div>
+A Plataforma de hospedagem executa a aplicação web e concentra dois artefatos. As Páginas
+pré-geradas correspondem à renderização antecipada da página da publicação, entregue já
+montada ao navegador e revalidada periodicamente. As Funções da API atendem às ações do
+usuário e manifestam os componentes do servidor: ForumController, ForumService,
+AuthService, TabCoinsService e Repositorio.
 
-<p align="center">Figura 3: Diagrama [Tipo] da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
--->
+O Servidor de banco de dados executa o PostgreSQL e recebe o artefato Esquema do Fórum,
+com as tabelas de conteúdos, usuários e avaliações. O acesso ocorre por conexão TCP a
+partir da plataforma de hospedagem. O Serviço de e-mail é um nó externo, acionado apenas
+para notificar o autor de um conteúdo quando ele recebe uma resposta.
+
+A separação entre páginas pré-geradas e funções de API explica uma característica central
+da funcionalidade: a leitura da publicação e da árvore de comentários não depende de
+requisições adicionais após o carregamento, enquanto responder e avaliar exigem chamadas
+autenticadas ao servidor. Essa distinção é a contrapartida física das interfaces
+representadas no Diagrama de Componentes.
+
+```plantuml
+@startuml
+title Diagrama de Implantacao da Pagina da Postagem
+
+left to right direction
+skinparam componentStyle uml2
+skinparam nodesep 40
+skinparam ranksep 70
+
+node "Dispositivo do usuario" <<device>> as dispositivo {
+  node "Navegador" <<executionEnvironment>> as navegador {
+    artifact "Front-end do Forum" as frontend
+  }
+}
+
+node "Plataforma de hospedagem" <<device>> as hospedagem {
+  node "Next.js" <<executionEnvironment>> as nextjs {
+    artifact "Paginas pre-geradas" as paginas
+    artifact "Funcoes da API" as funcoesApi
+  }
+}
+
+node "Servidor de banco de dados" <<device>> as servidorBanco {
+  node "PostgreSQL" <<executionEnvironment>> as postgres {
+    artifact "Esquema do Forum" as esquema
+  }
+}
+
+node "Servico de e-mail" <<external>> as email
+
+dispositivo -down- hospedagem : <<HTTPS>>
+hospedagem -down- servidorBanco : <<TCP/PostgreSQL>>
+hospedagem -up- email : <<SMTP>>
+
+rectangle "Diagrama de Componentes" as componentes {
+  package "Cliente (Navegador)" {
+    component "PostPageUI" as UI
+    component "CommentTree" as CT
+    component "TabCoinWidget" as TCW
+    component "MarkdownRenderer" as MD
+  }
+  package "Servidor de Aplicacao" {
+    component "ForumController" as CTRL
+    component "AuthService" as AUTH
+    component "ForumService" as SVC
+    component "TabCoinsService" as TCS
+    component "Repositorio" as REPO
+  }
+}
+
+frontend ..> UI : <<manifest>>
+frontend ..> CT : <<manifest>>
+frontend ..> TCW : <<manifest>>
+frontend ..> MD : <<manifest>>
+
+paginas ..> UI : <<manifest>>
+
+funcoesApi ..> CTRL : <<manifest>>
+funcoesApi ..> AUTH : <<manifest>>
+funcoesApi ..> SVC : <<manifest>>
+funcoesApi ..> TCS : <<manifest>>
+funcoesApi ..> REPO : <<manifest>>
+@enduml
+```
+
+<p align="center">Figura 3: Diagrama de Implantação da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
 
 ## Referências
 
@@ -165,7 +246,8 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 | 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Guilherme Moura](https://github.com/Guilherme-Moura) | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
 | 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
 | 1.3 | 17/09/2026 | Adição do Diagrama de Componentes da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Componentes em PlantUML, com organização em três camadas, notação de interfaces providas e requeridas, estereótipos nas fronteiras de execução e inclusão das referências correspondentes. |
-| 1.4 | 17/09/2026 | Padronização das seções de Metodologia e Escolha da Modelagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Alinhamento das duas seções ao modelo adotado no documento de Modelagem Dinâmica, com a justificativa da complementaridade entre os diagramas estruturais fundamentada na UML 2.5.1 e em Booch, Rumbaugh e Jacobson (2005), e inclusão da referência correspondente. |
+| 1.4 | 17/09/2026 | Adição do Diagrama de Implantação da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Implantação em PlantUML, com os nós de dispositivo, hospedagem, banco de dados e serviço externo de e-mail, os artefatos implantados em cada ambiente de execução, os caminhos de comunicação com os protocolos HTTPS, TCP/PostgreSQL e SMTP, e as relações de manifestação que ligam cada artefato aos componentes do Diagrama de Componentes. |
+| 1.5 | 17/09/2026 | Padronização das seções de Metodologia e Escolha da Modelagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Alinhamento das duas seções ao modelo adotado no documento de Modelagem Dinâmica, com a justificativa da complementaridade entre os diagramas estruturais fundamentada na UML 2.5.1 e em Booch, Rumbaugh e Jacobson (2005), e inclusão da referência correspondente. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 

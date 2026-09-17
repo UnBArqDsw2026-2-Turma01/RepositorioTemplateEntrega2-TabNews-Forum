@@ -8,6 +8,16 @@
 **Duração:** 10 minutos e 43 segundos
 **Modalidade:** Reunião remota
 
+<h2>Reunião inicial entrega 02</h2>
+
+<a href="https://youtu.be/Niv4jRAIlq0" target="_blank">
+  <img 
+    src="https://img.youtube.com/vi/Niv4jRAIlq0/maxresdefault.jpg" 
+    alt="Reunião inicial entrega 02"
+    width="560"
+  >
+</a>
+
 ## 1. Participantes
 
 * Arthur Fernandes Silva de Jesus
