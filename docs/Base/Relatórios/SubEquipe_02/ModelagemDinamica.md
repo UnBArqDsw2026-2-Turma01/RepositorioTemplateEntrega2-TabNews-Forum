@@ -48,19 +48,11 @@ Todos os casos de uso, gates, lifetimes, visões e psicinas foram pensadas a par
 
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Sequência.
 
-<font size="3">
-<p style="text-align: center">
-<b>Figura 1</b> — Diagrama de Sequência
-</p>
-</font>
-
-![SIG de Usabilidade, Conforto Ocular e Navegação](/docs/Base/images/modeloSequencia1_isaacMenezes.png)
-
-<font size="2">
-<p style="text-align: center">
-Fonte: Integrantes da SubEquipe_02 (2026).
-</p>
-</font>
+<div align="center">
+  <img src="/docs/Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
+  
+  <p><strong>Figura 1:</strong> Diagrama Sequencial. Fonte: SubEquipe_02 (2026).</p>
+</div>
 
 O Diagrama mostra as relações dinâmicas que o usuário tem com diversos componentes do fórum, detre eles, API, publicações, banco de dados, etc. As respectivas piscinas de cada interação também estão representadas.
 O Diagrama foi feito na linguagem descritiva padrão do plantuml.com e o link para o script é este: https://drive.google.com/file/d/1Uyj1VkuLbT1S0bWx4iKhvRRACIL9Z8ka/view?usp=sharing
@@ -84,7 +76,7 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |   |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
-| 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |Isaac Menezes Pereira |  | Apenas inserido nome. |
+| 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |[Isaac Menezes Pereira](https://github.com/pratamz250) |  | Apenas inserido nome. |
 | 1.2 | 17/09/2026 | Inserção de Diagrama de Sequência |[Isaac Menezes Pereira](https://github.com/pratamz250) |  | Diagrama de Sequência inserido, construído no plantuml.com com sua linguagem descritiva padrão. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
