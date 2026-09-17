@@ -137,6 +137,10 @@ node "Servidor de banco de dados" <<device>> as servidorBanco {
 }
 
 node "Servico de e-mail" <<external>> as email
+
+dispositivo -down- hospedagem : <<HTTPS>>
+hospedagem -down- servidorBanco : <<TCP/PostgreSQL>>
+hospedagem -right- email : <<SMTP>>
 @enduml
 ```
 
