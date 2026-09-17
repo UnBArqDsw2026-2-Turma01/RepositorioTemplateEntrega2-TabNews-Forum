@@ -49,7 +49,7 @@ Todos os casos de uso, gates, lifetimes, visões e psicinas foram pensadas a par
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Sequência.
 
 <div align="center">
-  <img src="/docs/Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
+  <img src="Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama Sequencial. Fonte: SubEquipe_02 (2026).</p>
 </div>
