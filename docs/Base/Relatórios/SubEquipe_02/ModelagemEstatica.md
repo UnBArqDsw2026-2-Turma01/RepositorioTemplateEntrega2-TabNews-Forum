@@ -47,13 +47,31 @@ Todos os componentes foram pensadas a partir dos seguintes objetos presentes no 
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Pacotes.
 
 <div align="center">
-  <img src="Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
+  <img src="../../../Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama de Pacotes. Fonte: SubEquipe_02 (2026).</p>
 </div>
 
 O Diagrama mostra as relações dinâmicas que o usuário tem com diversos pacotes do fórum, detre eles, Frontend, Backend, Pesquisa, Banco de dados, etc.
 O Diagrama foi feito na linguagem descritiva padrão do plantuml.com e o link para o script é este: https://drive.google.com/file/d/1vNdjDWz9vci6-VCckC8cAPcvgJLjPlSB/view?usp=sharing
+
+
+### Diagrama de Classes - Pablo Rodrigues
+Aqui temos uma visão geral de como o código foi estruturado, enfatizando a funcionalidade de seus componentes e como eles trabalham entre si.
+As classes retratadas são:
+- User
+- Validator
+- Authorization
+- Content
+- Ad
+
+Modelo feito originalmente no Plantuml mas depois foi usado Lucidchart para utilizar a IA para correções e sugestões.
+
+<div align="center">
+  <img src="../../../Base/images/diagrama_de_classes-sub02.png" alt="Diagrama de classes" width="800">
+  
+  <p><strong>Figura 2:</strong> Diagrama de Classes. Fonte: SubEquipe_02 (2026).</p>
+</div>
 
 ## Referências
 
@@ -63,8 +81,9 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Nome | % de Contribuição |
 |------|-------------------|
+|Arthur Fernandes|25%|
 |Isaac Menezes|25%|
-|      |                   |
+|Pablo Rodrigues|25%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -73,7 +92,8 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
-| 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |  | Inserção de Diagrama de Pacotes. |
+| 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |[Pablo Rodrigues](https://github.com/Pablo-R-L)| Inserção de Diagrama de Pacotes. |
+| 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 

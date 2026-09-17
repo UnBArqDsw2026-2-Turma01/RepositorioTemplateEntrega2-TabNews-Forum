@@ -24,7 +24,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Nome do Membro | Lições Aprendidas | Uso da IA Generativa (senso crítico) |
 |----------------|-------------------|--------------------------------------|
-|                |                   |                                      |
+|[Pablo Rodrigues](https://github.com/Pablo-R-L)|Aprendi bastante informações sobre diagramas de classes e de casos de uso que é um modelo que só havia ouvido falar até então, o Plantuml foi especialmente util, junto com a IA, para me informar sobre as notações que eu podia ou não usar, aprendi um pouco mais sobre engenharia reversa como encontrar as partes do codigo que preciso e me familiarizei um pouco mais com javaScript.|Aqui a IA foi mais uma vez uma ótima ferramenta, servindo como um tipo de "copiloto" eu utilizei principalmente a IA do LucidChart para me dar sugestões de como melhorar o que eu ja havia feito ou se precisava adicionar mais algum detalhe. Usei também o Claude para encontrar a pasta com o código referente à pagina inicial no github do Tabnews e também para listar os tipos de diagramas estáticos e dinâmicos para me ajudar a decidir qual fazer.|
 |                |                   |                                      |
 |                |                   |                                      |
 
@@ -38,7 +38,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
+|[Pablo Rodrigues](https://github.com/Pablo-R-L)|25%|
 |      |                   |
 |      |                   |
 
@@ -49,6 +49,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. |  |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 

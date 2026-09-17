@@ -49,13 +49,27 @@ Todos os casos de uso, gates, lifetimes, visões e psicinas foram pensadas a par
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Sequência.
 
 <div align="center">
-  <img src="Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
+  <img src="../../../Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama Sequencial. Fonte: SubEquipe_02 (2026).</p>
 </div>
 
 O Diagrama mostra as relações dinâmicas que o usuário tem com diversos componentes do fórum, detre eles, API, publicações, banco de dados, etc. As respectivas piscinas de cada interação também estão representadas.
 O Diagrama foi feito na linguagem descritiva padrão do plantuml.com e o link para o script é este: https://drive.google.com/file/d/1Uyj1VkuLbT1S0bWx4iKhvRRACIL9Z8ka/view?usp=sharing
+
+### Diagrama de casos de uso - Pablo Rodrigues
+Modelo feito usando Lucidcahrt com o auxílio de sua IA, seguindo a visão dos seguintes atores:
+- Visitante anônimo
+- Usuário logdo
+
+O diagrama é composto apenas pelo caso de uso da tela de postagens relevantes e postagens recentes.
+Cobrindo todasas opções do usuário, como pesquisar, paginar, acessar as postagens, entre outros.
+
+<div align="center">
+  <img src="../../../Base/images/diagrama_de_casos_de_uso-sub02.png" alt="Diagrama Casos de Uso" width="800">
+  
+  <p><strong>Figura 2:</strong> Diagrama de Casos de Uso. Fonte: SubEquipe_02 (2026).</p>
+</div>
 
 ## Referências
 
@@ -65,9 +79,9 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| Isaac Menezes| 33% |
-|      |                   |
-|      |                   |
+| Isaac Menezes| 25% |
+|Pablo Rodrigues|25%|
+|Arthur Fernandes|25%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -75,9 +89,10 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |   |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |[Arthur Fernandes](https://github.com/arthurfernandesj)|[Pablo Rodrigues](https://github.com/Pablo-R-L)| Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |[Isaac Menezes Pereira](https://github.com/pratamz250) |  | Apenas inserido nome. |
-| 1.2 | 17/09/2026 | Inserção de Diagrama de Sequência |[Isaac Menezes Pereira](https://github.com/pratamz250) |  | Diagrama de Sequência inserido, construído no plantuml.com com sua linguagem descritiva padrão. |
+| 1.2 | 17/09/2026 | Inserção de Diagrama de Sequência |[Isaac Menezes Pereira](https://github.com/pratamz250) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Diagrama de Sequência inserido, construído no plantuml.com com sua linguagem descritiva padrão. |
+| 1.3 | 17/09/2026 | Criação do diagrama de casos de uso. | [Pablo Rodrigues](https://github.com/Pablo-R-L)  |  | Criação do diagrama de casos de usos usando a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
