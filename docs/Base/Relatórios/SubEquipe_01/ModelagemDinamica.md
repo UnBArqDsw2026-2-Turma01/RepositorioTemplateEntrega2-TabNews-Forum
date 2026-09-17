@@ -18,13 +18,29 @@ A elaboração do modelo foi realizada de forma colaborativa pelos integrantes d
 
 As decisões de modelagem foram fundamentadas nos conceitos da UML e na literatura de Engenharia de Software, buscando representar de maneira clara e consistente o comportamento do sistema.
 
-## Conteúdo
+
+## Diagrama de Estados
+
+O diagrama mapeia o ciclo de vida do processo de entrada de usuários na plataforma TabNews, detalhando a dinâmica de navegação entre o acesso inicial e a navegação autenticada.
+
+A jornada se origina no ponto de entrada do sistema, que conduz a interface para a etapa de seleção de acesso. Uma ramificação condicional avalia se o visitante já possui cadastro prévio:
+
+* **Usuários sem cadastro:**
+ O sistema direciona o fluxo para o bloco interno de registro, onde ocorre a coleta das credenciais (e-mail, nome de usuário e senha). Havendo a validação dos parâmetros e a confirmação do endereço de e-mail, o fluxo é reaproveitado e convergido para a etapa de acesso.
+
+* **Usuários já cadastrados:**
+ O fluxo avança diretamente para a submissão das credenciais de login. O sistema processa os dados inseridos e, em caso de conformidade, autoriza o acesso do perfil, redirecionando o usuário à página inicial e encerrando o ciclo no estado de sucesso.
+
+A representação utiliza a convenção gráfica da UML para diagramação de estados, empregando pseudoestado de início, retângulos para estados simples e compostos, losangos de verificação e o estado final de conclusão. O modelo foi construído conforme as diretrizes teóricas de modelagem do projeto.
 
 ### Modelagem Dinâmica
 
-Inserir aqui a modelagem dinâmica elaborada pela **SubEquipe_01**, acompanhada de legenda e fonte.
 
-<p align="center">Figura 1: Modelo Dinâmico na notação UML. Fonte: SubEquipe_01 (2026).</p>
+<div align="center">
+  <img src="Base/images/diagrama_estados.png" alt="Diagrama de estados" width="800">
+  
+  <p><strong>Figura 2:</strong> Diagrama de Estados — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
+</div>
 
 ## Referências
 
@@ -33,10 +49,9 @@ Inserir aqui a modelagem dinâmica elaborada pela **SubEquipe_01**, acompanhada 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
-|------|-------------------|
-|      |                   |
-|      |                   |
-|      |                   |
+|:---|:---:|
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
