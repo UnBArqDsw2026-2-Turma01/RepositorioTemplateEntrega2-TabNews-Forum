@@ -107,21 +107,33 @@ REPO ..> I_SQL : <<JDBC>>
 
 <p align="center">Figura 2: Diagrama de Componentes da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
 
-### 3. [Nome do Terceiro Diagrama]
+### 3. Diagrama de Implantação
 
-[Breve descrição estrutural do terceiro diagrama, explicando qual aspecto estático da página completa ele resolve, a ser preenchida após a definição da equipe.]
+```plantuml
+@startuml
+title Diagrama de Implantacao da Pagina da Postagem
 
-<!-- ESPAÇO RESERVADO PARA O TERCEIRO DIAGRAMA
-     Imagem:       Base/images/SubEquipe_03/diagrama-3.png
-     Arquivo-fonte: Base/images/SubEquipe_03/fontes/diagrama-3.drawio
-     Ao inserir, substituir este comentário por:
+skinparam componentStyle uml2
+skinparam nodesep 25
+skinparam ranksep 55
 
-<div align="center">
-<img src="Base/images/SubEquipe_03/diagrama-3.png" alt="Diagrama 3 da Página da postagem" width="800">
-</div>
+node "Dispositivo do usuario" <<device>> as dispositivo {
+  node "Navegador" <<executionEnvironment>> as navegador
+}
 
-<p align="center">Figura 3: Diagrama [Tipo] da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
--->
+node "Plataforma de hospedagem" <<device>> as hospedagem {
+  node "Next.js" <<executionEnvironment>> as nextjs
+}
+
+node "Servidor de banco de dados" <<device>> as servidorBanco {
+  node "PostgreSQL" <<executionEnvironment>> as postgres
+}
+
+node "Servico de e-mail" <<external>> as email
+@enduml
+```
+
+<p align="center">Figura 3: Diagrama de Implantação da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
 
 ## Referências
 
