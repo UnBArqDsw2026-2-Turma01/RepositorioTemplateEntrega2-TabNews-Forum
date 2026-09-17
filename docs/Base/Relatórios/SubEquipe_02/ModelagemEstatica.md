@@ -46,19 +46,11 @@ Todos os componentes foram pensadas a partir dos seguintes objetos presentes no 
 
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Pacotes.
 
-<font size="3">
-<p style="text-align: center">
-<b>Figura 1</b> — Diagrama de Pacotes
-</p>
-</font>
-
-![SIG de Usabilidade, Conforto Ocular e Navegação](/docs/Base/images/modeloPacotes1_isaacMenezes.png)
-
-<font size="2">
-<p style="text-align: center">
-Fonte: Integrantes da SubEquipe_02 (2026).
-</p>
-</font>
+<div align="center">
+  <img src="/docs/Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
+  
+  <p><strong>Figura 1:</strong> Diagrama de Pacotes. Fonte: SubEquipe_02 (2026).</p>
+</div>
 
 O Diagrama mostra as relações dinâmicas que o usuário tem com diversos pacotes do fórum, detre eles, Frontend, Backend, Pesquisa, Banco de dados, etc.
 O Diagrama foi feito na linguagem descritiva padrão do plantuml.com e o link para o script é este: https://drive.google.com/file/d/1vNdjDWz9vci6-VCckC8cAPcvgJLjPlSB/view?usp=sharing
