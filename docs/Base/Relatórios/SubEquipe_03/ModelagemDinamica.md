@@ -192,6 +192,16 @@ O Diagrama de Comunicação representa o fluxo de avaliação de um conteúdo (v
 
 ### 4. Diagrama de Estados
 
+O Diagrama de Estados representa o ciclo de vida de um conteúdo do Fórum — tanto a publicação quanto o comentário, que compartilham a mesma máquina de estados por derivarem da abstração `Conteudo`. Enquanto os três diagramas anteriores são de interação e descrevem trocas de mensagens entre participantes, este descreve a evolução interna de um único objeto ao longo do tempo. É o diagrama que responde por quais situações o conteúdo passa entre ser criado e deixar de existir para os leitores.
+
+Quatro estados compõem o ciclo. **Rascunho** é o ponto de partida da publicação em elaboração, ainda invisível para os demais usuários. **Publicado** é o estado em que o conteúdo integra a Página da postagem e passa a aceitar comentários e avaliações. **Em revisão** acolhe o conteúdo retirado de circulação por suspeita de abuso, à espera de decisão da moderação. **Removido** é o estado final: uma vez alcançado, nenhuma alteração é aceita.
+
+Duas transições partem do estado inicial, e a distinção é deliberada. A publicação nasce em Rascunho e depende de uma ação explícita de publicar; o comentário nasce já em Publicado, porque não há etapa de elaboração privada ao responder na árvore. As ações associadas registram a data de publicação e creditam o autor, e o caminho inverso — sair de Publicado por remoção ou revisão — debita o crédito concedido, o que mantém o saldo coerente com o que está efetivamente visível. A saída de Em revisão tem apenas dois destinos: a moderação aprova o conteúdo, que retorna a Publicado com os créditos restaurados, ou confirma a remoção, levando-o a Removido.
+
+As duas notas registram restrições que não se leem nas transições. A primeira identifica Publicado como único estado visível na Página da postagem, o que explica por que um comentário retirado do ar deixa de exibir conteúdo mas preserva o encadeamento da árvore quando possui respostas publicadas. A segunda registra as transições bloqueadas: um conteúdo publicado não regride a rascunho, e um conteúdo removido não admite alteração posterior.
+
+**Consistência com os demais diagramas.** O estado Publicado é a pré-condição implícita dos dois diagramas de interação do documento. No Diagrama de Sequência, o fluxo de publicação de comentário encerra com o crédito ao autor e a inserção na árvore — exatamente a transição para Publicado representada aqui, com a mesma ação de creditar. No Diagrama de Comunicação, a avaliação de um conteúdo só faz sentido sobre um conteúdo visível, isto é, em Publicado. No Diagrama de Classes, porém, a classe `Conteudo` expressa o ciclo de vida por meio do atributo booleano `ativo`, que distingue apenas duas situações. Representar os quatro estados aqui modelados exigiria substituí-lo por um atributo de status associado a uma enumeração, na linha do que já é feito com `TipoVoto`. A divergência fica registrada para alinhamento da equipe.
+
 ```plantuml
 @startuml
 title Ciclo de Vida do Conteúdo na Página da Postagem
