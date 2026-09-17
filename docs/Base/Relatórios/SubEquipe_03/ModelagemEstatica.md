@@ -10,14 +10,25 @@ Representar as principais classes, atributos, métodos e relacionamentos envolvi
 
 ## Metodologia
 
-A modelagem foi elaborada a partir da análise detalhada da funcionalidade Página da postagem no sistema TabNews. Em vez de utilizar recortes detalhados de um único diagrama, a equipe optou por desenvolver três tipos distintos de diagramas. Todos os três têm como escopo a página completa, buscando uma visão abrangente da sua organização estrutural sob diferentes níveis de abstração.
+A modelagem estática foi elaborada a partir da análise da estrutura da funcionalidade Página da postagem no sistema TabNews, buscando representar os elementos que compõem a aplicação e os relacionamentos existentes entre eles.
+
+O processo envolveu a identificação das entidades de domínio, de seus atributos e responsabilidades e das unidades de software que as realizam. Em vez de utilizar recortes de um único diagrama, a equipe optou por desenvolver tipos distintos de diagramas estáticos, todos com escopo na página completa, de modo a obter visões complementares em diferentes níveis de abstração.
+
+A elaboração do modelo foi realizada de forma colaborativa pelos integrantes da SubEquipe_03, utilizando as ferramentas adotadas pela equipe para construção e documentação dos diagramas.
+
+As decisões de modelagem foram fundamentadas nos conceitos da UML e na literatura de Engenharia de Software, buscando representar de maneira clara e consistente a estrutura do sistema.
 
 ## Escolha da Modelagem
 
-A estratégia de modelagem adotada utilizou três diagramas UML distintos para representar o sistema sob diferentes perspectivas estruturais. Essa escolha visa mapear a página completa, aplicando múltiplos modelos estáticos que se complementam:
-1. **Diagrama de Classes:** Focado na estrutura lógica e relacional dos dados (publicação, comentários, votos).
-2. **Diagrama de Componentes:** Focado na organização modular, detalhando os artefatos de software que compõem a página e suas interfaces.
-3. **[Terceiro Tipo a Definir]:** 
+A estratégia adotada utiliza diagramas estruturais complementares, de modo que cada um responda a uma pergunta distinta sobre a Página da postagem:
+
+1. **Diagrama de Classes:** representa a estrutura lógica do domínio, com os atributos, as operações e os relacionamentos entre publicação, comentários, votos e usuários. Responde *"de que o sistema é feito"*.
+2. **Diagrama de Componentes:** representa a organização modular da aplicação, detalhando as unidades de software que compõem a página e os contratos estabelecidos entre elas. Responde *"como as partes se encaixam"*.
+3. **[Terceiro Tipo a Definir]:** a ser definido pela equipe.
+
+A escolha conjunta do Diagrama de Classes e do Diagrama de Componentes é deliberada. Ambos são diagramas estruturais, mas operam em níveis de abstração distintos: segundo a especificação da UML 2.5.1 (OMG, 2017), o de classes descreve os classificadores do domínio, enquanto o de componentes descreve unidades substituíveis que encapsulam sua realização e se relacionam por interfaces providas e requeridas. Apresentá-los lado a lado permite discutir a passagem do modelo conceitual para a organização arquitetural, em vez de repetir a mesma informação em duas notações.
+
+O Diagrama de Classes foi posicionado como ponto de entrada por estabelecer o vocabulário de domínio reutilizado pelos demais modelos, conforme a abordagem descrita por Booch, Rumbaugh e Jacobson (2005).
 
 ## Modelagem Estática
 
@@ -125,14 +136,15 @@ REPO ..> I_SQL : <<JDBC>>
 
 ## Referências
 
+BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. **UML: Guia do Usuário**. 2. ed. Rio de Janeiro: Elsevier, 2005.
+
 OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 16 set. 2026.
+
+PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: uma abordagem profissional**. 8. ed. Porto Alegre: AMGH, 2016.
 
 UML-DIAGRAMS.ORG. **UML Class Diagrams**. Disponível em: [https://www.uml-diagrams.org/class-diagrams/class-diagram.html](https://www.uml-diagrams.org/class-diagrams/class-diagram.html). Acesso em: 16 set. 2026.
 
 UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-diagrams.org/component-diagrams.html](https://www.uml-diagrams.org/component-diagrams.html). Acesso em: 17 set. 2026.
-
-PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: uma abordagem profissional**. 8. ed. Porto Alegre: AMGH, 2016.
-
 
 ## Nível de Contribuição dos Integrantes
 
@@ -153,6 +165,7 @@ PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: uma abordagem prof
 | 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Guilherme Moura](https://github.com/Guilherme-Moura) | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
 | 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
 | 1.3 | 17/09/2026 | Adição do Diagrama de Componentes da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Componentes em PlantUML, com organização em três camadas, notação de interfaces providas e requeridas, estereótipos nas fronteiras de execução e inclusão das referências correspondentes. |
+| 1.4 | 17/09/2026 | Padronização das seções de Metodologia e Escolha da Modelagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Alinhamento das duas seções ao modelo adotado no documento de Modelagem Dinâmica, com a justificativa da complementaridade entre os diagramas estruturais fundamentada na UML 2.5.1 e em Booch, Rumbaugh e Jacobson (2005), e inclusão da referência correspondente. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
