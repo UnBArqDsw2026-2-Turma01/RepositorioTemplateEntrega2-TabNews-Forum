@@ -47,7 +47,7 @@ Todos os componentes foram pensadas a partir dos seguintes objetos presentes no 
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Pacotes.
 
 <div align="center">
-  <img src="/docs/Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
+  <img src="Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama de Pacotes. Fonte: SubEquipe_02 (2026).</p>
 </div>
