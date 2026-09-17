@@ -105,7 +105,7 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 
 ## Referências
 
-As referências utilizadas devem ser apresentadas em ordem alfabética, incluindo as fontes efetivamente consultadas durante a elaboração deste documento e das atividades relacionadas ao uso de IA Generativa.
+OPENAI. ChatGPT: visão geral. Disponível em: https://openai.com/chatgpt/overview/. Acesso em: 17 set. 2026.
 
 ---
 
