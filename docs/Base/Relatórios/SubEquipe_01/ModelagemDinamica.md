@@ -60,8 +60,8 @@ Ao sair da etapa de autenticação, a transição guardada pela verificação de
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,3% |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,3% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
