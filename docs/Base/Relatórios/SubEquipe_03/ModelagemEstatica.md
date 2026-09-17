@@ -141,6 +141,35 @@ node "Servico de e-mail" <<external>> as email
 dispositivo -down- hospedagem : <<HTTPS>>
 hospedagem -down- servidorBanco : <<TCP/PostgreSQL>>
 hospedagem -right- email : <<SMTP>>
+
+rectangle "Diagrama de Componentes" as componentes {
+  package "Cliente (Navegador)" {
+    component "PostPageUI" as UI
+    component "CommentTree" as CT
+    component "TabCoinWidget" as TCW
+    component "MarkdownRenderer" as MD
+  }
+  package "Servidor de Aplicacao" {
+    component "ForumController" as CTRL
+    component "AuthService" as AUTH
+    component "ForumService" as SVC
+    component "TabCoinsService" as TCS
+    component "Repositorio" as REPO
+  }
+}
+
+frontend ..> UI : <<manifest>>
+frontend ..> CT : <<manifest>>
+frontend ..> TCW : <<manifest>>
+frontend ..> MD : <<manifest>>
+
+paginas ..> UI : <<manifest>>
+
+funcoesApi ..> CTRL : <<manifest>>
+funcoesApi ..> AUTH : <<manifest>>
+funcoesApi ..> SVC : <<manifest>>
+funcoesApi ..> TCS : <<manifest>>
+funcoesApi ..> REPO : <<manifest>>
 @enduml
 ```
 
