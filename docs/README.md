@@ -53,7 +53,7 @@ As contribuições são comprovadas por meio dos registros disponíveis no repos
 
 | Aluno | FOCO 01 — Estática | FOCO 02 — Dinâmica | FOCO 03 — IA Generativa | Comprobatórios |
 | ----- | :----------------: | :----------------: | :----------------------: | -------------- |
-| Caio Alexandre Ornelas Silva | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) | [Histórico de commits](LINK) |
+| Caio Alexandre Ornelas Silva | [Diagrama de Componentes](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/98371918639c591737a2dec2d54202a70601cf9b) | [Casos de Uso e Sequência](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/be59a0f70e3df63d63b5dba50b58155ababd0119) | [Ponto de vista e reestruturação](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/1a8b7d0ede69c7a118c47125b1e22e82fa27cd98) | [Histórico de commits](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) |
 | Guilherme Moura da Silva Neto | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) |
 | Leonardo Fachinello Bonetti | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) |
 | Pablo Rodrigues Lima | [Comprobatório](LINK) | [Comprobatório](LINK) | [Comprobatório](LINK) | [Histórico de commits](LINK) |
@@ -89,3 +89,4 @@ A participação dos integrantes é registrada considerando os três focos da En
 | ------ | ----- | --------- | --------- | ----------- | ------------------ |
 | 1.0 | 13/09/2026 | Criação do Documento | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial da página de Participações da Entrega 02. |
 | 2.0 | 16/09/2026 | Atualização das informações das subequipes e dos focos da Entrega 02 | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Atualização da composição das subequipes, organização das participações nos focos de Modelagem Estática, Modelagem Dinâmica e IA Generativa e inclusão da estrutura para os respectivos comprobatórios. |
+| 2.1 | 17/09/2026 | Inclusão dos comprobatórios do integrante Caio Alexandre nos três focos da entrega. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Substituição dos campos de comprobatório da SubEquipe 03 pelos links dos commits correspondentes aos artefatos produzidos em cada foco. |

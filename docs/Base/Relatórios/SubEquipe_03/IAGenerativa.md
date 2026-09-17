@@ -74,7 +74,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 
 | Integrante | Atividade/Contribuição | Evidência |
 |:---|:---|:---|
-| [Caio Alexandre](https://github.com/bitterteriyaki) | Elaboração do Diagrama de Componentes (FOCO_01), do Diagrama de Casos de Uso e do Diagrama de Sequência (FOCO_02), e das iniciativas extras de suporte a PlantUML e padronização do ambiente local. | [Commit](LINK_DO_COMMIT) |
+| [Caio Alexandre](https://github.com/bitterteriyaki) | Elaboração do Diagrama de Componentes (FOCO_01), do Diagrama de Casos de Uso e do Diagrama de Sequência (FOCO_02), e das iniciativas extras de suporte a PlantUML e padronização do ambiente local. | [FOCO 01](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/98371918639c591737a2dec2d54202a70601cf9b) · [FOCO 02](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/be59a0f70e3df63d63b5dba50b58155ababd0119) · [PlantUML](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/2f57d45a1a127f3498532aa3f49f5fc774a21f15) · [mise](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/c9513c3da47eef8688133a4c7b16b0fbbb8418e9) · [Iniciativas Extras](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/5fe61269c7e08667d88afc95674c206936147b6a) |
 | [Guilherme Moura](https://github.com/Guilherme-Moura) | Elaboração do Diagrama de Classes (FOCO_01) e do Diagrama de Comunicação (FOCO_02). | [Commit](LINK_DO_COMMIT) |
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Estruturação do documento de Modelagem Estática da Página da postagem. | [Commit](LINK_DO_COMMIT) |
 | [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | PREENCHA | [Commit](LINK_DO_COMMIT) |
@@ -85,7 +85,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
-| Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada. | [Commit com registro de coautoria](LINK_DO_COMMIT) |
+| Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada. | [Commits dos artefatos produzidos](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) |
 | Guilherme Moura da Silva Neto | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 | Leonardo Fachinello Bonetti | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 | Pablo Rodrigues Lima | PREENCHA | PREENCHA | [Registro/Print](LINK) |
