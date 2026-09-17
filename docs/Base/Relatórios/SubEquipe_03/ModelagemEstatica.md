@@ -118,15 +118,22 @@ skinparam nodesep 25
 skinparam ranksep 55
 
 node "Dispositivo do usuario" <<device>> as dispositivo {
-  node "Navegador" <<executionEnvironment>> as navegador
+  node "Navegador" <<executionEnvironment>> as navegador {
+    artifact "Front-end do Forum" as frontend
+  }
 }
 
 node "Plataforma de hospedagem" <<device>> as hospedagem {
-  node "Next.js" <<executionEnvironment>> as nextjs
+  node "Next.js" <<executionEnvironment>> as nextjs {
+    artifact "Paginas pre-geradas" as paginas
+    artifact "Funcoes da API" as funcoesApi
+  }
 }
 
 node "Servidor de banco de dados" <<device>> as servidorBanco {
-  node "PostgreSQL" <<executionEnvironment>> as postgres
+  node "PostgreSQL" <<executionEnvironment>> as postgres {
+    artifact "Esquema do Forum" as esquema
+  }
 }
 
 node "Servico de e-mail" <<external>> as email
