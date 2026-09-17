@@ -56,6 +56,7 @@ Ao sair da etapa de autenticação, a transição guardada pela verificação de
   <small>Acesso em: 15 set. 2026.</small>
 </p>
 
+
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
