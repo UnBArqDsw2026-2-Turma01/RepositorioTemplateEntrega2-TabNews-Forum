@@ -25,6 +25,7 @@ A estratégia adotada utiliza diagramas comportamentais complementares, de modo 
 1. **Diagrama de Casos de Uso:** delimita a fronteira da funcionalidade, identificando os atores envolvidos e os serviços que a página oferece a cada um deles. Responde *"o que o sistema faz e para quem"*.
 2. **Diagrama de Sequência:** detalha a ordem temporal das mensagens trocadas entre os objetos durante a execução de um fluxo específico. Responde *"em que ordem isso acontece"*.
 3. **Diagrama de Comunicação:** apresenta a mesma interação sob ênfase estrutural, evidenciando os vínculos entre as instâncias que colaboram. Responde *"quem se conecta com quem"*.
+4. **Diagrama de Estados:** descreve o ciclo de vida do conteúdo, identificando as situações em que ele pode estar, os eventos que provocam mudança e as transições impedidas. Responde *"por quais estados o conteúdo passa"*.
 
 A escolha conjunta do Diagrama de Sequência e do Diagrama de Comunicação é deliberada. Ambos são diagramas de interação e, segundo a especificação da UML 2.5.1 (OMG, 2017), expressam informação semanticamente equivalente, diferindo apenas na ênfase: o de sequência destaca a ordenação temporal, enquanto o de comunicação destaca a organização estrutural dos participantes. Apresentá-los lado a lado permite discutir criticamente essa equivalência e demonstrar domínio da notação, em vez de multiplicar diagramas sem propósito.
 
