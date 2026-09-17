@@ -247,35 +247,6 @@ end note
 
 <p align="center">Figura 4: Diagrama de Estados — ciclo de vida do conteúdo. Fonte: SubEquipe_03 (2026).</p>
 
-#### Decisões de modelagem
-
-O ciclo de vida foi levantado por análise do TabNews, tomado como referência. A tabela registra cada decisão, a evidência observada e o tratamento dado no Fórum.
-
-| Decisão no Fórum | Referência observada no TabNews (arquivo:linha) | Tratamento |
-|:---|:---|:---:|
-| Quatro estados de conteúdo: Rascunho, Publicado, Em revisão e Removido | `models/validator.js:265` — `valid('draft', 'published', 'deleted', 'firewall')` | Adaptado |
-| Publicação nasce em Rascunho | `models/content.js:396` — `postedContent.status = postedContent.status \|\| 'draft'` | Mantido |
-| Comentário nasce direto em Publicado | `models/content.js:530-537` — crédito quando o conteúdo é criado já publicado | Mantido |
-| Publicar registra a data e credita o autor | `models/content.js:466-479` (`populatePublishedAtValue`) e `:530-537` | Mantido |
-| Sair de Publicado debita os créditos concedidos | `models/content.js:502-527` — débito quando havia `published_at` e o status deixa de ser `published` | Mantido |
-| Aprovação da moderação restaura os créditos | `models/firewall/review.js:187-193` — `content.undoFirewallStatus` seguido de `balance.undo` | Mantido |
-| Em revisão sai apenas para Publicado ou Removido | `models/content.js:799-807` — restaura como `published` ou `deleted`, nunca como `draft` | Mantido |
-| Publicado não retorna a Rascunho | `models/content.js:883` — *"Não é possível alterar para rascunho um conteúdo já publicado."* | Mantido |
-| Removido é estado final | `models/content.js:871` — *"Não é possível alterar informações de um conteúdo já deletado."* | Mantido |
-| Somente Publicado é visível na Página da postagem | `models/content.js:922` e `:962` — `findTree` filtra `status = 'published'`; `pages/[username]/[slug]/index.jsx:276` | Mantido |
-| Conteúdo não publicado com respostas permanece como lápide | `models/content.js:989-1022` (`flatListToTree`) e `pages/[username]/[slug]/index.jsx:216` e `:243` | Mantido |
-| Avaliar exige conteúdo publicado | `pages/api/v1/contents/[username]/[slug]/tabcoins/index.js:46` | Mantido |
-| Nomes de estado em português, sem termo técnico ou de marca | `firewall` como nome de estado em `models/validator.js:265` | Adaptado |
-| Entrada em revisão modelada como evento de denúncia, não como mecanismo automático | `infra/migrations/1715808011643_create-firewall-side-effect-functions.js:71` — bloqueio por IP em janela de 10 minutos | Adaptado |
-| Transição Rascunho → Em revisão | Mesma função SQL bloqueia independentemente do status anterior (`:68-72`), mas a restauração nunca devolve a Rascunho | Omitido |
-| Criação direta em Removido ou Em revisão | `models/content.js:444` — proibida pela validação | Omitido |
-| Distinção entre remoção pelo autor e pela moderação | `pages/api/v1/contents/[username]/[slug]/index.js` e `models/firewall/review.js:11-18` usam o mesmo estado final | Omitido |
-| Estados do usuário (ativo, banido) | `models/user.js`, `models/ban.js` | Omitido |
-| Distinção entre conteúdo e anúncio | `models/validator.js:272` — `valid('content', 'ad')` | Omitido |
-| Pontuação de relevância como estado | `models/content.js:1083` — `getContentScore` retorna `-10` fora de `published` | Omitido |
-
-<p align="center">Tabela 1: Decisões de modelagem do Diagrama de Estados.</p>
-
 ## Referências
 
 BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. **UML: Guia do Usuário**. 2. ed. Rio de Janeiro: Elsevier, 2005.
@@ -301,7 +272,7 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
 | [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
-<p align="center">Tabela 2: Contribuição dos integrantes.</p>
+<p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
 ## Histórico de Versões
 
@@ -309,8 +280,8 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 17/09/2026 | Adição do Diagrama de Casos de Uso e do Diagrama de Sequência da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração dos dois diagramas em PlantUML, definição da seção Escolha da Modelagem com a justificativa da complementaridade entre os diagramas de interação e inclusão das referências bibliográficas. |
-| 1.2 | 17/09/2026 | Adição do Diagrama de Estados do conteúdo da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Estados em PlantUML, com os estados Rascunho, Publicado, Em revisão e Removido, transições no formato evento/guarda/ação, notas das transições bloqueadas e do estado que torna o conteúdo visível, além da tabela de decisões de modelagem, do item 4 na Escolha da Modelagem e das referências correspondentes. |
+| 1.2 | 17/09/2026 | Adição do Diagrama de Estados do conteúdo da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Estados em PlantUML, com os estados Rascunho, Publicado, Em revisão e Removido, transições no formato evento/guarda/ação, notas das transições bloqueadas e do estado que torna o conteúdo visível, além da rastreabilidade das decisões no texto da seção, do item 4 na Escolha da Modelagem e das referências correspondentes. |
 
-<p align="center">Tabela 3: Histórico de Versões.</p>
+<p align="center">Tabela 2: Histórico de Versões.</p>
 
 Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [IA Generativa](IAGenerativa.md)
