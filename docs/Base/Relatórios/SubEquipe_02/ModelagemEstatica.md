@@ -22,20 +22,56 @@ As decisões de modelagem foram fundamentadas nos conceitos da UML e na literatu
 
 ### Modelagem Estática
 
-Inserir aqui a modelagem estática elaborada pela **SubEquipe_02**, acompanhada de legenda e fonte.
+### Diagrama de Pacotes do TabNews — Isaac Menezes
 
-<p align="center">Figura 1: Modelo Estático na notação UML. Fonte: SubEquipe_02 (2026).</p>
+O modelo foi construído usando o site plantuml.com e sua linguagem descritiva padrão. 
+Todos os componentes foram pensadas a partir dos seguintes objetos presentes no fórum:
+- Aba Relevantes;
+- Aba Recentes;
+- Campo de pesquisa;
+- Ícone de mudança de tema de cor;
+- Função de login;
+- Função de cadastro;
+- Aba de publicações;
+- Aba de comentários;
+- Aba de classificados;
+- Aba Todos;
+- Lista de comentários;
+- Botão para próxima página;
+- Botão para página anterior;
+- Botão de contato;
+- Botão de FAQ;
+- Botão com link do GitHub;
+- Botões de FAQ, GitHub, Museu, RSS, Sobre, Termos de Uso e curso.dev.
+
+De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Pacotes.
+
+<font size="3">
+<p style="text-align: center">
+<b>Figura 1</b> — Diagrama de Pacotes
+</p>
+</font>
+
+![SIG de Usabilidade, Conforto Ocular e Navegação](/docs/Base/images/modeloPacotes1_isaacMenezes.png)
+
+<font size="2">
+<p style="text-align: center">
+Fonte: Integrantes da SubEquipe_02 (2026).
+</p>
+</font>
+
+O Diagrama mostra as relações dinâmicas que o usuário tem com diversos pacotes do fórum, detre eles, Frontend, Backend, Pesquisa, Banco de dados, etc.
+O Diagrama foi feito na linguagem descritiva padrão do plantuml.com e o link para o script é este: https://drive.google.com/file/d/1vNdjDWz9vci6-VCckC8cAPcvgJLjPlSB/view?usp=sharing
 
 ## Referências
 
-*Listar as referências utilizadas, em ordem alfabética.*
+H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0, IEEE Computer Society, 2024. Acesso em 14 set. de 2026.
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
-|      |                   |
+|Isaac Menezes|25%|
 |      |                   |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
@@ -45,6 +81,7 @@ Inserir aqui a modelagem estática elaborada pela **SubEquipe_02**, acompanhada 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
+| 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |  | Inserção de Diagrama de Pacotes. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
