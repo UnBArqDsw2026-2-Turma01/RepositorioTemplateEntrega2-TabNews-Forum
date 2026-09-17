@@ -35,11 +35,15 @@ Todos os participantes do grupo contribuíram para o desenvolvimento das ativida
 
 | Logo | Ferramenta | Finalidade |
 | :---: | :---: | :--- |
-| ![Logo do ChatGPT](../images/chatgpt.png) | ChatGPT | Apoio à compreensão de conceitos, organização de ideias, revisão da documentação e análise crítica durante as atividades da entrega. |
-| ![Logo do Docsify](../images/docsify.png) | Docsify | Estruturação, organização e disponibilização da documentação do projeto por meio de páginas Markdown. |
-| ![Logo do Draw.io](../images/draw.png) | Draw.io | Criação e edição dos diagramas utilizados nas atividades de modelagem do projeto. |
-| ![Logo do GitHub](../images/github.png) | GitHub | Versionamento, armazenamento, organização e acompanhamento dos artefatos e documentos produzidos pela equipe. |
-| ![Logo do Visual Studio Code](../images/vscode.png) | Visual Studio Code | Criação, edição e organização dos arquivos de documentação e demais arquivos do projeto. |
+| ![Logo do ChatGPT](../Base/images/chatgpt.png) | ChatGPT | Apoio à compreensão de conceitos, organização de ideias, revisão da documentação e análise crítica durante as atividades da entrega. |
+| ![Logo do Docsify](../Base/images/docsify.png) | Docsify | Estruturação, organização e disponibilização da documentação do projeto por meio de páginas Markdown. |
+| ![Logo do Draw.io](../Base/images/draw.png) | Draw.io | Criação e edição dos diagramas utilizados nas atividades de modelagem do projeto. |
+| ![Logo do GitHub](../Base/images/github.png) | GitHub | Versionamento, armazenamento, organização e acompanhamento dos artefatos e documentos produzidos pela equipe. |
+| ![Logo do Visual Studio Code](../Base/images/vscode.png) | Visual Studio Code | Criação, edição e organização dos arquivos de documentação e demais arquivos do projeto. |
+| ![Logo do Teams](../Base/images/teams.png)        |       Teams        |                           Realização e gravação de reuniões.                            |
+| ![Logo do WhatsApp](../Base/images/whatsapp.png)     |      WhatsApp      |                        Comunicação do time e avisos de demandas.                        |
+|  ![Logo do YouTube](../Base/images/youtube.png)      |      YouTube       |                            Hospedagem de vídeos produzidos.                             |
+
 
 <p align="center">Fonte: Grupo 02 (2026).</p>
 
@@ -59,15 +63,24 @@ O **ChatGPT** foi utilizado como ferramenta de apoio durante as atividades da en
 
 ## Referências Bibliográficas
 
-> 1. **OPENAI.** ChatGPT. [San Francisco, CA]: OpenAI, 2026. Disponível em: https://openai.com/chatgpt/. Acesso em: 16 set. 2026.
+> 1. **BRMODELO.** brModelo Desktop. [S.l.]: brModelo, c2026. Disponível em: https://sourceforge.net/projects/brmodelo/. Acesso em: 17 set. 2026.
 
-> 2. **DOCSIFY.** Docsify. [S.l.]: Docsify, 2026. Disponível em: https://docsify.js.org/. Acesso em: 16 set. 2026.
+> 2. **OPENAI.** ChatGPT. [San Francisco, CA]: OpenAI, c2026. Disponível em: https://openai.com/index/chatgpt/. Acesso em: 17 set. 2026.
 
-> 3. **DRAW.IO.** draw.io. [S.l.]: draw.io, 2026. Disponível em: https://app.diagrams.net/. Acesso em: 16 set. 2026.
+> 3. **DOCSIFY.** Docsify. [S.l.]: Docsify, c2026. Disponível em: https://docsify.js.org/. Acesso em: 17 set. 2026.
 
-> 4. **GITHUB.** GitHub Docs. [San Francisco, CA]: GitHub, 2026. Disponível em: https://docs.github.com/pt. Acesso em: 16 set. 2026.
+> 4. **DRAW.IO.** draw.io. [S.l.]: draw.io, c2026. Disponível em: https://app.diagrams.net/. Acesso em: 17 set. 2026.
 
-> 5. **MICROSOFT.** Visual Studio Code. [Redmond, WA]: Microsoft, 2026. Disponível em: https://code.visualstudio.com/. Acesso em: 16 set. 2026.
+> 5. **GITHUB.** GitHub Docs. [San Francisco, CA]: GitHub, c2026. Disponível em: https://docs.github.com/pt. Acesso em: 17 set. 2026.
+
+> 6. **MICROSOFT.** Microsoft Teams. [Redmond, WA]: Microsoft, c2026. Disponível em: https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software. Acesso em: 17 set. 2026.
+
+> 7. **MICROSOFT.** Visual Studio Code. [Redmond, WA]: Microsoft, c2026. Disponível em: https://code.visualstudio.com/. Acesso em: 17 set. 2026.
+
+> 8. **META.** WhatsApp. [Menlo Park, CA]: Meta, c2026. Disponível em: https://www.whatsapp.com/?lang=pt_br. Acesso em: 17 set. 2026.
+
+> 9. **GOOGLE.** How YouTube Works. [Mountain View, CA]: Google, c2026. Disponível em: https://www.youtube.com/howyoutubeworks/. Acesso em: 17 set. 2026.
+
 
 ## Histórico de Versões
 
