@@ -1,0 +1,11 @@
+[tools]
+node = "24"
+pnpm = "12"
+
+[tasks.dev]
+description = "Sobe o site da documentacao em http://localhost:3000"
+run = "pnpm dlx --ignore-scripts docsify-cli@5 serve ./docs --port 3000"
+
+[tasks.open]
+description = "Sobe o site e abre no navegador padrao"
+run = "pnpm dlx --ignore-scripts docsify-cli@5 serve ./docs --port 3000 --open"
