@@ -292,7 +292,7 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
 | [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
-<p align="center">Tabela 1: Contribuição dos integrantes.</p>
+<p align="center">Tabela 2: Contribuição dos integrantes.</p>
 
 ## Histórico de Versões
 
@@ -301,6 +301,6 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 17/09/2026 | Adição do Diagrama de Casos de Uso e do Diagrama de Sequência da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração dos dois diagramas em PlantUML, definição da seção Escolha da Modelagem com a justificativa da complementaridade entre os diagramas de interação e inclusão das referências bibliográficas. |
 
-<p align="center">Tabela 2: Histórico de Versões.</p>
+<p align="center">Tabela 3: Histórico de Versões.</p>
 
 Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [IA Generativa](IAGenerativa.md)
