@@ -71,7 +71,6 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|   Arthur Fernandes   |25%|
 |Isaac Menezes|25%|
 |      |                   |
 
