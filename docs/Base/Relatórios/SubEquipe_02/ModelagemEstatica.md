@@ -81,9 +81,9 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|Arthur Fernandes|25%|
-|Isaac Menezes|25%|
-|Pablo Rodrigues|25%|
+|Pedro Ramos|33%|
+|Isaac Menezes|33%|
+|Pablo Rodrigues|33%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -91,7 +91,7 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
+| 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Pedro Ramos](https://github.com/PedroRSR) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
 | 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |[Pablo Rodrigues](https://github.com/Pablo-R-L)| Inserção de Diagrama de Pacotes. |
 | 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 

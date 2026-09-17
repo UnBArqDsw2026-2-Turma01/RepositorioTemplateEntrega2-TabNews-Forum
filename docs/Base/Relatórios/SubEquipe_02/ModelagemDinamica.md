@@ -104,10 +104,9 @@ TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.t
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|Arthur Fernandes|25%|
-|Isaac Menezes| 25% |
-|Pablo Rodrigues|25%|
-|Pedro Ramos|25%|
+|Isaac Menezes| 33% |
+|Pablo Rodrigues|33%|
+|Pedro Ramos|33%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -115,7 +114,7 @@ TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.t
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |[Arthur Fernandes](https://github.com/arthurfernandesj)|[Pablo Rodrigues](https://github.com/Pablo-R-L)| Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_02. |[Isaac Menezes](https://github.com/pratamz250)|[Pablo Rodrigues](https://github.com/Pablo-R-L)| Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 16/09/2026 | Teste inicial de permissão de contribuição. |[Isaac Menezes Pereira](https://github.com/pratamz250) |  | Apenas inserido nome. |
 | 1.2 | 17/09/2026 | Inserção de Diagrama de Sequência |[Isaac Menezes Pereira](https://github.com/pratamz250) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Diagrama de Sequência inserido, construído no plantuml.com com sua linguagem descritiva padrão. |
 | 1.3 | 17/09/2026 | Criação do diagrama de casos de uso. | [Pablo Rodrigues](https://github.com/Pablo-R-L)  |  | Criação do diagrama de casos de usos usando a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |

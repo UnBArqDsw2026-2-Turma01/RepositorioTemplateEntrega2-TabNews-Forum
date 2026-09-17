@@ -38,7 +38,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|[Pablo Rodrigues](https://github.com/Pablo-R-L)|25%|
+|Pablo Rodrigues|33%|
 |      |                   |
 |      |                   |
 
@@ -48,7 +48,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. |  |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
 | 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
