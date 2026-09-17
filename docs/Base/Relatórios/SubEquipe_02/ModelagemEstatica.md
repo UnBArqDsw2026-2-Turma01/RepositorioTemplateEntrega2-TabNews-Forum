@@ -34,7 +34,7 @@ Inserir aqui a modelagem estática elaborada pela **SubEquipe_02**, acompanhada 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|   Arthur Fernandes   |                   |
+|      |                   |
 |      |                   |
 |      |                   |
 
