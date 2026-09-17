@@ -53,7 +53,7 @@ Ao sair da etapa de autenticação, a transição guardada pela verificação de
   <a href="https://sites.google.com/view/unb-fcte-arqdsw/m%C3%B3dulos/m%C3%B3dulo-modelagem?authuser=0" target="_blank" rel="noopener noreferrer">
     https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem
   </a>. 
-  <small>Acesso em: 12 set. 2026.</small>
+  <small>Acesso em: 15 set. 2026.</small>
 </p>
 
 ## Nível de Contribuição dos Integrantes
