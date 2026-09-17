@@ -34,7 +34,9 @@ A IA Generativa foi utilizada com a finalidade de acelerar o desenvolvimento do 
 
 O uso concentrou-se na produção dos diagramas UML e da documentação associada, em que a ferramenta permitiu obter rapidamente uma primeira versão dos modelos, que em seguida foi ajustada ao escopo da Página da postagem e à nomenclatura já adotada pela equipe no Diagrama de Classes.
 
-A validação dos artefatos permaneceu sob responsabilidade do integrante: os diagramas produzidos foram verificados quanto à sintaxe da notação e conferidos visualmente antes de serem incorporados à documentação.
+A ferramenta foi empregada também na automação das atividades de versionamento, abrangendo a organização das alterações em commits temáticos, a redação das mensagens de commit segundo o padrão já adotado pela equipe e a elaboração da descrição do *pull request*. Essa automação teve como objetivo reduzir o esforço operacional associado ao registro das contribuições e assegurar a consistência do histórico do repositório.
+
+A validação dos artefatos permaneceu sob responsabilidade do integrante: os diagramas produzidos foram verificados quanto à sintaxe da notação e conferidos visualmente antes de serem incorporados à documentação, e o conteúdo de cada commit foi revisado antes de ser registrado.
 
 ### Guilherme Moura da Silva Neto
 
@@ -85,7 +87,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
-| Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada. | [Commits dos artefatos produzidos](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) |
+| Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada, e automação do versionamento (organização dos commits, redação das mensagens e descrição do *pull request*). | [Histórico de commits](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) · [Commits da branch `docs/sub03-caio`](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/docs/sub03-caio) |
 | Guilherme Moura da Silva Neto | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 | Leonardo Fachinello Bonetti | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 | Pablo Rodrigues Lima | PREENCHA | PREENCHA | [Registro/Print](LINK) |
@@ -113,6 +115,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de IA Generativa da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
 | 1.1 | 17/09/2026 | Reestruturação do documento e registro da experiência individual do integrante. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Substituição da tabela de pontos de vista por seções individuais por integrante, inclusão das seções de Análise Crítica e de Evidências de Participação e de Uso de IA Generativa, e registro do ponto de vista do integrante Caio Alexandre. |
+| 1.2 | 17/09/2026 | Registro do uso de IA Generativa na automação do versionamento. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Inclusão, no ponto de vista individual e na tabela de evidências, do uso da ferramenta na organização dos commits, na redação das mensagens e na elaboração da descrição do pull request, com o histórico de commits como evidência. |
 
 <p align="center">Tabela 4: Histórico de Versões.</p>
 
