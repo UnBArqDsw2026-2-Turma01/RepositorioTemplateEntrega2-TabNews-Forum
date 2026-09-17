@@ -242,6 +242,35 @@ end note
 
 <p align="center">Figura 4: Diagrama de Estados — ciclo de vida do conteúdo. Fonte: SubEquipe_03 (2026).</p>
 
+#### Decisões de modelagem
+
+O ciclo de vida foi levantado por análise do TabNews, tomado como referência. A tabela registra cada decisão, a evidência observada e o tratamento dado no Fórum.
+
+| Decisão no Fórum | Referência observada no TabNews (arquivo:linha) | Tratamento |
+|:---|:---|:---:|
+| Quatro estados de conteúdo: Rascunho, Publicado, Em revisão e Removido | `models/validator.js:265` — `valid('draft', 'published', 'deleted', 'firewall')` | Adaptado |
+| Publicação nasce em Rascunho | `models/content.js:396` — `postedContent.status = postedContent.status \|\| 'draft'` | Mantido |
+| Comentário nasce direto em Publicado | `models/content.js:530-537` — crédito quando o conteúdo é criado já publicado | Mantido |
+| Publicar registra a data e credita o autor | `models/content.js:466-479` (`populatePublishedAtValue`) e `:530-537` | Mantido |
+| Sair de Publicado debita os créditos concedidos | `models/content.js:502-527` — débito quando havia `published_at` e o status deixa de ser `published` | Mantido |
+| Aprovação da moderação restaura os créditos | `models/firewall/review.js:187-193` — `content.undoFirewallStatus` seguido de `balance.undo` | Mantido |
+| Em revisão sai apenas para Publicado ou Removido | `models/content.js:799-807` — restaura como `published` ou `deleted`, nunca como `draft` | Mantido |
+| Publicado não retorna a Rascunho | `models/content.js:883` — *"Não é possível alterar para rascunho um conteúdo já publicado."* | Mantido |
+| Removido é estado final | `models/content.js:871` — *"Não é possível alterar informações de um conteúdo já deletado."* | Mantido |
+| Somente Publicado é visível na Página da postagem | `models/content.js:922` e `:962` — `findTree` filtra `status = 'published'`; `pages/[username]/[slug]/index.jsx:276` | Mantido |
+| Conteúdo não publicado com respostas permanece como lápide | `models/content.js:989-1022` (`flatListToTree`) e `pages/[username]/[slug]/index.jsx:216` e `:243` | Mantido |
+| Avaliar exige conteúdo publicado | `pages/api/v1/contents/[username]/[slug]/tabcoins/index.js:46` | Mantido |
+| Nomes de estado em português, sem termo técnico ou de marca | `firewall` como nome de estado em `models/validator.js:265` | Adaptado |
+| Entrada em revisão modelada como evento de denúncia, não como mecanismo automático | `infra/migrations/1715808011643_create-firewall-side-effect-functions.js:71` — bloqueio por IP em janela de 10 minutos | Adaptado |
+| Transição Rascunho → Em revisão | Mesma função SQL bloqueia independentemente do status anterior (`:68-72`), mas a restauração nunca devolve a Rascunho | Omitido |
+| Criação direta em Removido ou Em revisão | `models/content.js:444` — proibida pela validação | Omitido |
+| Distinção entre remoção pelo autor e pela moderação | `pages/api/v1/contents/[username]/[slug]/index.js` e `models/firewall/review.js:11-18` usam o mesmo estado final | Omitido |
+| Estados do usuário (ativo, banido) | `models/user.js`, `models/ban.js` | Omitido |
+| Distinção entre conteúdo e anúncio | `models/validator.js:272` — `valid('content', 'ad')` | Omitido |
+| Pontuação de relevância como estado | `models/content.js:1083` — `getContentScore` retorna `-10` fora de `published` | Omitido |
+
+<p align="center">Tabela 1: Decisões de modelagem do Diagrama de Estados.</p>
+
 ## Referências
 
 BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. **UML: Guia do Usuário**. 2. ed. Rio de Janeiro: Elsevier, 2005.
