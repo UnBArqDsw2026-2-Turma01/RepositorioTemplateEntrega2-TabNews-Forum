@@ -20,15 +20,79 @@ Cada integrante deve registrar suas principais lições aprendidas e descrever, 
 
 As informações e sugestões obtidas por meio da IA Generativa foram analisadas e validadas pela equipe antes de serem incorporadas à documentação ou aos artefatos do projeto.
 
-## Conteúdo
+## Pontos de Vista dos Integrantes
 
-| Nome do Membro | Lições Aprendidas | Uso da IA Generativa (senso crítico) |
-|----------------|-------------------|--------------------------------------|
-|                |                   |                                      |
-|                |                   |                                      |
-|                |                   |                                      |
+### Caio Alexandre Ornelas Silva
 
-<p align="center">Tabela 1: Pontos de vista dos integrantes sobre o uso de IA Generativa.</p>
+**Lições aprendidas**
+
+Não foram registradas lições aprendidas específicas por este integrante nesta entrega.
+
+**Uso da IA Generativa e senso crítico**
+
+A IA Generativa foi utilizada com a finalidade de acelerar o desenvolvimento do trabalho, reduzindo o tempo gasto na elaboração e na estruturação dos artefatos da entrega.
+
+O uso concentrou-se na produção dos diagramas UML e da documentação associada, em que a ferramenta permitiu obter rapidamente uma primeira versão dos modelos, que em seguida foi ajustada ao escopo da Página da postagem e à nomenclatura já adotada pela equipe no Diagrama de Classes.
+
+A ferramenta foi empregada também na automação das atividades de versionamento, abrangendo a organização das alterações em commits temáticos, a redação das mensagens de commit segundo o padrão já adotado pela equipe e a elaboração da descrição do *pull request*. Essa automação teve como objetivo reduzir o esforço operacional associado ao registro das contribuições e assegurar a consistência do histórico do repositório.
+
+A validação dos artefatos permaneceu sob responsabilidade do integrante: os diagramas produzidos foram verificados quanto à sintaxe da notação e conferidos visualmente antes de serem incorporados à documentação, e o conteúdo de cada commit foi revisado antes de ser registrado.
+
+### Guilherme Moura da Silva Neto
+
+**Lições aprendidas**
+
+PREENCHA
+
+**Uso da IA Generativa e senso crítico**
+
+PREENCHA
+
+### Leonardo Fachinello Bonetti
+
+**Lições aprendidas**
+
+PREENCHA
+
+**Uso da IA Generativa e senso crítico**
+
+PREENCHA
+
+### Pablo Rodrigues Lima
+
+**Lições aprendidas**
+
+PREENCHA
+
+**Uso da IA Generativa e senso crítico**
+
+PREENCHA
+
+## Análise Crítica do Uso de IA Generativa
+
+PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as limitações observadas no uso de IA Generativa durante a entrega.
+
+## Evidências de Participação
+
+| Integrante | Atividade/Contribuição | Evidência |
+|:---|:---|:---|
+| [Caio Alexandre](https://github.com/bitterteriyaki) | Elaboração do Diagrama de Componentes (FOCO_01), do Diagrama de Casos de Uso e do Diagrama de Sequência (FOCO_02), e das iniciativas extras de suporte a PlantUML e padronização do ambiente local. | [FOCO 01](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/98371918639c591737a2dec2d54202a70601cf9b) · [FOCO 02](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/be59a0f70e3df63d63b5dba50b58155ababd0119) · [PlantUML](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/2f57d45a1a127f3498532aa3f49f5fc774a21f15) · [mise](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/c9513c3da47eef8688133a4c7b16b0fbbb8418e9) · [Iniciativas Extras](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/5fe61269c7e08667d88afc95674c206936147b6a) |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | Elaboração do Diagrama de Classes (FOCO_01) e do Diagrama de Comunicação (FOCO_02). | [Commit](LINK_DO_COMMIT) |
+| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Estruturação do documento de Modelagem Estática da Página da postagem. | [Commit](LINK_DO_COMMIT) |
+| [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | PREENCHA | [Commit](LINK_DO_COMMIT) |
+
+<p align="center">Tabela 1: Evidências de participação dos integrantes.</p>
+
+## Evidências do Uso de IA Generativa
+
+| Integrante | Ferramenta | Finalidade | Evidência |
+|:---|:---|:---|:---|
+| Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada, e automação do versionamento (organização dos commits, redação das mensagens e descrição do *pull request*). | [Histórico de commits](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) · [Commits da branch `docs/sub03-caio`](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/docs/sub03-caio) |
+| Guilherme Moura da Silva Neto | PREENCHA | PREENCHA | [Registro/Print](LINK) |
+| Leonardo Fachinello Bonetti | PREENCHA | PREENCHA | [Registro/Print](LINK) |
+| Pablo Rodrigues Lima | PREENCHA | PREENCHA | [Registro/Print](LINK) |
+
+<p align="center">Tabela 2: Evidências do uso de IA Generativa.</p>
 
 ## Referências
 
@@ -37,19 +101,22 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
-|------|-------------------|
-|      |                   |
-|      |                   |
-|      |                   |
+|:---|:---:|
+| [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | |
+| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
+| [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
-<p align="center">Tabela 2: Contribuição dos integrantes.</p>
+<p align="center">Tabela 3: Contribuição dos integrantes.</p>
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_03. |  |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.0 | 13/09/2026 | Criação do documento de IA Generativa da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.1 | 17/09/2026 | Reestruturação do documento e registro da experiência individual do integrante. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Substituição da tabela de pontos de vista por seções individuais por integrante, inclusão das seções de Análise Crítica e de Evidências de Participação e de Uso de IA Generativa, e registro do ponto de vista do integrante Caio Alexandre. |
+| 1.2 | 17/09/2026 | Registro do uso de IA Generativa na automação do versionamento. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Inclusão, no ponto de vista individual e na tabela de evidências, do uso da ferramenta na organização dos commits, na redação das mensagens e na elaboração da descrição do pull request, com o histórico de commits como evidência. |
 
-<p align="center">Tabela 3: Histórico de Versões.</p>
+<p align="center">Tabela 4: Histórico de Versões.</p>
 
 Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [Modelagem Dinâmica na Notação UML](ModelagemDinamica.md)

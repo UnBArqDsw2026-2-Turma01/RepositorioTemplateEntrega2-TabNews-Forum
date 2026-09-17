@@ -34,19 +34,78 @@ O Diagrama de Classes representa a estrutura lógica e de domínio de toda a Pá
 
 ### 2. Diagrama de Componentes
 
-Este diagrama oferece uma visão física e de subsistemas da Página da postagem completa, ilustrando como as partes modulares da aplicação se organizam e se conectam para fornecer a funcionalidade aos usuários.
+Este diagrama oferece uma visão modular e de subsistemas da Página da postagem completa, ilustrando como as partes da aplicação se organizam e se conectam para fornecer a funcionalidade aos usuários. Enquanto o Diagrama de Classes representa o domínio em termos lógicos, o Diagrama de Componentes eleva o nível de abstração para os artefatos de software e para os contratos estabelecidos entre eles.
 
-<!-- ESPAÇO RESERVADO PARA O DIAGRAMA DE COMPONENTES
-     Imagem:       Base/images/SubEquipe_03/diagrama-componentes.png
-     Arquivo-fonte: Base/images/SubEquipe_03/fontes/diagrama-componentes.drawio
-     Ao inserir, substituir este comentário por:
+A organização adotada distribui os componentes em três camadas. O **Cliente (Navegador)** reúne os elementos de interface: `PostPageUI` atua como componente agregador e consome os serviços de `CommentTree`, responsável pela renderização recursiva da árvore de comentários, `TabCoinWidget`, responsável pela interação de votação, e `MarkdownRenderer`, responsável pela conversão do corpo do conteúdo. O **Servidor de Aplicação** concentra `ForumController`, `AuthService`, `ForumService`, `TabCoinsService` e `Repositorio`, mantendo a mesma nomenclatura empregada no Diagrama de Classes para preservar a rastreabilidade entre os dois modelos. A persistência é representada pelo nó `PostgreSQL`.
 
-<div align="center">
-<img src="Base/images/SubEquipe_03/diagrama-componentes.png" alt="Diagrama de Componentes da Página da postagem" width="800">
-</div>
+As dependências são expressas pela notação de interfaces providas e requeridas (*ball-and-socket*). Essa escolha é deliberada: ela evidencia que os componentes não se acoplam entre si diretamente, mas por meio de contratos explícitos. `ForumController` requer `IAutenticacao` e `IForum` sem conhecer as implementações de `AuthService` e `ForumService`, e tanto `ForumService` quanto `TabCoinsService` requerem a mesma interface `IPersistencia`, provida por `Repositorio` — o que concentra o acesso a dados em um único ponto do sistema.
+
+Dois relacionamentos recebem estereótipos por atravessarem fronteiras de execução: `«HTTP/JSON»`, entre o cliente e o servidor, e `«JDBC»`, entre o repositório e o banco. Esses são os pontos em que a comunicação deixa de ser uma chamada em memória e passa a depender de rede, o que os torna relevantes para discussões de desempenho e de tratamento de falhas.
+
+```plantuml
+@startuml
+title Diagrama de Componentes da Pagina da Postagem
+
+skinparam componentStyle uml2
+skinparam nodesep 25
+skinparam ranksep 55
+
+package "Cliente (Navegador)" {
+  component "PostPageUI" as UI
+  component "CommentTree" as CT
+  component "TabCoinWidget" as TCW
+  component "MarkdownRenderer" as MD
+}
+
+package "Servidor de Aplicacao" {
+  component "ForumController" as CTRL
+  component "AuthService" as AUTH
+  component "ForumService" as SVC
+  component "TabCoinsService" as TCS
+  component "Repositorio" as REPO
+}
+
+database "PostgreSQL" as DB
+
+interface "IArvoreComentarios" as I_TREE
+interface "IVotacaoUI" as I_VOTE
+interface "IRenderizacao" as I_REND
+interface "IConteudoAPI" as I_API
+interface "IAutenticacao" as I_AUTH
+interface "IForum" as I_FORUM
+interface "ITabCoins" as I_TC
+interface "IPersistencia" as I_PERSIST
+interface "IConexaoSQL" as I_SQL
+
+CT -up- I_TREE
+TCW -up- I_VOTE
+MD -up- I_REND
+UI ..> I_TREE
+UI ..> I_VOTE
+UI ..> I_REND
+
+CTRL -up- I_API
+UI ..> I_API : <<HTTP/JSON>>
+
+AUTH -up- I_AUTH
+CTRL ..> I_AUTH
+
+SVC -up- I_FORUM
+CTRL ..> I_FORUM
+
+TCS -up- I_TC
+SVC ..> I_TC
+
+REPO -up- I_PERSIST
+SVC ..> I_PERSIST
+TCS ..> I_PERSIST
+
+DB -up- I_SQL
+REPO ..> I_SQL : <<JDBC>>
+@enduml
+```
 
 <p align="center">Figura 2: Diagrama de Componentes da Página da postagem. Fonte: SubEquipe_03 (2026).</p>
--->
 
 ### 3. [Nome do Terceiro Diagrama]
 
@@ -70,14 +129,19 @@ OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.
 
 UML-DIAGRAMS.ORG. **UML Class Diagrams**. Disponível em: [https://www.uml-diagrams.org/class-diagrams/class-diagram.html](https://www.uml-diagrams.org/class-diagrams/class-diagram.html). Acesso em: 16 set. 2026.
 
+UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-diagrams.org/component-diagrams.html](https://www.uml-diagrams.org/component-diagrams.html). Acesso em: 17 set. 2026.
+
+PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: uma abordagem profissional**. 8. ed. Porto Alegre: AMGH, 2016.
+
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
-|------|-------------------|
-|      |                   |
-|      |                   |
-|      |                   |
+|:---|:---:|
+| [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | |
+| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
+| [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -88,6 +152,7 @@ UML-DIAGRAMS.ORG. **UML Class Diagrams**. Disponível em: [https://www.uml-diagr
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
 | 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Guilherme Moura](https://github.com/Guilherme-Moura) | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
 | 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
+| 1.3 | 17/09/2026 | Adição do Diagrama de Componentes da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Componentes em PlantUML, com organização em três camadas, notação de interfaces providas e requeridas, estereótipos nas fronteiras de execução e inclusão das referências correspondentes. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
