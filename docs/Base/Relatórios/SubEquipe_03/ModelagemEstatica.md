@@ -113,9 +113,10 @@ REPO ..> I_SQL : <<JDBC>>
 @startuml
 title Diagrama de Implantacao da Pagina da Postagem
 
+left to right direction
 skinparam componentStyle uml2
-skinparam nodesep 25
-skinparam ranksep 55
+skinparam nodesep 40
+skinparam ranksep 70
 
 node "Dispositivo do usuario" <<device>> as dispositivo {
   node "Navegador" <<executionEnvironment>> as navegador {
@@ -140,7 +141,7 @@ node "Servico de e-mail" <<external>> as email
 
 dispositivo -down- hospedagem : <<HTTPS>>
 hospedagem -down- servidorBanco : <<TCP/PostgreSQL>>
-hospedagem -right- email : <<SMTP>>
+hospedagem -up- email : <<SMTP>>
 
 rectangle "Diagrama de Componentes" as componentes {
   package "Cliente (Navegador)" {
