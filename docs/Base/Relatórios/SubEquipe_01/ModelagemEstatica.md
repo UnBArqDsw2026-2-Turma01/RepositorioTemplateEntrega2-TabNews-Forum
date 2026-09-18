@@ -157,7 +157,7 @@ A participação dos integrantes da SubEquipe_01 foi distribuída de acordo com 
 |:---|:---|:---|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | Estrutura geral do Diagrama de Classes, organização da documentação e ajustes da modelagem. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/2) |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | Modelagem do recorte de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/1) |
-| [João Pedro S. Maciel](https://github.com/jopesmp) | Elaboração do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/preencher) |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | Elaboração do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/20) |
 
 As evidências apresentadas devem permitir a identificação da participação individual de cada integrante por meio do histórico de versões, commits ou Pull Requests do repositório.
 
