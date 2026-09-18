@@ -85,6 +85,10 @@ O diagrama de componentes foi elaborado com o objetivo de representar a organiza
 
 ## Pontos de Vista dos Integrantes
 
+### Isaac Menezes
+
+O Diagrama de Pacotes da tela inicial possibilitou visualizar a divisão dos recursos em grupos organizados. Cada pacote representa uma parte específica da interface ou uma funcionalidade do sistema. Essa separação contribui para compreender melhor a estrutura interna da aplicação. Também foi possível observar como os pacotes dependem uns dos outros para executar suas funções. Assim, o diagrama auxilia na organização e na manutenção dos componentes relacionados à tela inicial.
+
 ### Pablo Rodrigues
 
 O diagrama de classes possibilitou compreender com mais clareza como as funciolidades da tela inicial estão estruturadas em relação às suas classes. O processo de criação do diagrama também trouxe a tona funções que passariam despercebido normalmente, como a geração de anúncios e a autorização das postagens, também como cada função pode facilmente interagir em outras áreas do código por meio da importação de classes, sem a necessidade de criar isoladamente uma função para cada.

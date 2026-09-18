@@ -89,9 +89,19 @@ O diagrama de atividades detalha o fluxo de interação do usuário no TabNews, 
 A partir da análise do diagrama, é possível perceber que o fluxo principal do sistema do TabNews foi modelado de forma clara e organizada, mostrando a relação entre ação do usuário, processamento da interface e resposta do backend. Esse tipo de representação serve para entender a dinâmica da aplicação e para apoiar futuras melhorias no design e na arquitetura do software.
 
 ## Ponto de vista do integrantes
+
+### Isaac Menezes
+
+O Diagrama de Sequência permitiu representar a ordem das interações realizadas na tela inicial. O modelo demonstra como o usuário inicia uma ação e como o sistema responde a cada solicitação. Também foram evidenciadas as mensagens trocadas entre os componentes envolvidos no processo. Essa representação facilita a compreensão do fluxo de execução das funcionalidades. Dessa forma, torna-se mais simples identificar o comportamento do sistema em diferentes situações.
+
 ### Pablo Rodrigues
+
 A elaboração do Diagrama de Casos de Uso possibilitou compreender melhor as principais funcionalidades disponíveis na tela inicial e a forma como os usuários interagem com o sistema.
 A construção do modelo também evidenciou a importância de identificar os atores e suas respectivas ações antes de definir os casos de uso, permitindo representar de maneira clara as operações que podem ser realizadas a partir da tela inicial.
+
+### Pedro Ramos
+
+O Diagrama de Atividades permitiu entender como o usuário interage com o sistema e como cada etapa do fluxo influencia a experiência dentro do TabNews. Além disso, o diagrama mostrou como a interface, o frontend e o backend trabalham de forma integrada para entregar uma experiência consistente. Essa visão ajudou a compreender melhor a lógica do sistema e a relação entre comportamento do usuário e funcionamento da plataforma.
 
 ## Referências
 
@@ -101,9 +111,9 @@ LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [ht
 
 OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
 
-UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
-
 TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.tabnews.com.br). Acesso em: 16 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -124,7 +134,8 @@ TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.t
 | 1.2 | 17/09/2026 | Inserção de Diagrama de Sequência |[Isaac Menezes Pereira](https://github.com/pratamz250) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Diagrama de Sequência inserido, construído no plantuml.com com sua linguagem descritiva padrão. |
 | 1.3 | 17/09/2026 | Criação do diagrama de casos de uso. | [Pablo Rodrigues](https://github.com/Pablo-R-L)  | [Pedro Ramos](https://github.com/PedroRSR) | Criação do diagrama de casos de usos usando a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 | 1.4 | 17/09/2026 | Inserção do diagrama de atividades e revisão do conteúdo. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Inclusão do diagrama de atividades e revisão da documentação da modelagem dinâmica. |
-| 1.5 | 17/09/2026  | Organização do tópico de pontos de vista. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  |  |
+| 1.5 | 17/09/2026  | Organização do tópico de pontos de vista. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Verificação da correção gramatical |
+| 1.6 | 17/09/2026  | Organização do tópico de pontos de vista. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Verificação da correção gramatical |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
