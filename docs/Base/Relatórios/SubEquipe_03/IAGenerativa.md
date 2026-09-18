@@ -93,7 +93,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 | Nome | % de Contribuição |
 |:---|:---:|
 | [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
-| [Guilherme Moura](https://github.com/Guilherme-Moura) | |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | 30% |
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
 
 <p align="center">Tabela 3: Contribuição dos integrantes.</p>
@@ -106,6 +106,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 | 1.1 | 17/09/2026 | Reestruturação do documento e registro da experiência individual do integrante. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Substituição da tabela de pontos de vista por seções individuais por integrante, inclusão das seções de Análise Crítica e de Evidências de Participação e de Uso de IA Generativa, e registro do ponto de vista do integrante Caio Alexandre. |
 | 1.2 | 17/09/2026 | Registro do uso de IA Generativa na automação do versionamento. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Inclusão, no ponto de vista individual e na tabela de evidências, do uso da ferramenta na organização dos commits, na redação das mensagens e na elaboração da descrição do pull request, com o histórico de commits como evidência. |
 | 1.3 | 17/09/2026 | Registro do uso de IA Generativa e lições aprendidas do integrante Guilherme Moura. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Inclusão do relato individual sobre a geração de código-base em PlantUML para os diagramas (Classes e Comunicação), refinamento manual e suporte na formatação da documentação técnica, com respectiva atualização da tabela de evidências. |
+| 1.4 | 17/09/2026 | Correção da lista de integrantes e atualização das contribuições. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Correção dos nomes dos membros da SubEquipe_03 e preenchimento da porcentagem de contribuição individual na tabela correspondente. |
 
 <p align="center">Tabela 4: Histórico de Versões.</p>
 
