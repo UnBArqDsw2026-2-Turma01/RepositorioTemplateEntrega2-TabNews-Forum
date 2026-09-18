@@ -49,7 +49,7 @@ Todos os casos de uso, gates, lifetimes, visões e psicinas foram pensadas a par
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Sequência.
 
 <div align="center">
-  <img src="../../images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
+  <img src="Base/images/modeloSequencia1_isaacMenezes.png" alt="Diagrama Sequencial" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama Sequencial. Fonte: SubEquipe_02 (2026).</p>
 </div>
@@ -66,7 +66,7 @@ O diagrama é composto apenas pelo caso de uso da tela de postagens relevantes e
 Cobrindo todas as opções do usuário, como pesquisar, paginar, acessar as postagens, entre outros.
 
 <div align="center">
-  <img src="../../images/diagrama_de_casos_de_uso-sub02.png" alt="Diagrama Casos de Uso" width="800">
+  <img src="Base/images/diagrama_de_casos_de_uso-sub02.png" alt="Diagrama Casos de Uso" width="800">
   
   <p><strong>Figura 2:</strong> Diagrama de Casos de Uso. Fonte: SubEquipe_02 (2026).</p>
 </div>
@@ -81,7 +81,7 @@ O diagrama de atividades detalha o fluxo de interação do usuário no TabNews, 
 * **Comportamento reativo:** Fica claro que o sistema não é linear. As respostas da interface dependem de escolhas do usuário, regras de negócio e validações do servidor para garantir uma experiência consistente no fórum.
 
 <div align="center">
-  <img src="../../images/Diagrama_Atividades.png" alt="Diagrama de Atividades" width="1100">
+  <img src="Base/images/Diagrama_Atividades.png" alt="Diagrama de Atividades" width="1100">
   
   <p><strong>Figura 3:</strong> Diagrama de Atividades. Fonte: SubEquipe_02 (2026).</p>
 </div>
