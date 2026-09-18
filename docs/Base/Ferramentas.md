@@ -42,7 +42,8 @@ Todos os participantes do grupo contribuíram para o desenvolvimento das ativida
 | ![Logo do Visual Studio Code](../Base/images/vscode.png) | Visual Studio Code | Criação, edição e organização dos arquivos de documentação e demais arquivos do projeto. |
 | ![Logo do Teams](../Base/images/teams.png)        |       Teams        |                           Realização e gravação de reuniões.                            |
 | ![Logo do WhatsApp](../Base/images/whatsapp.png)     |      WhatsApp      |                        Comunicação do time e avisos de demandas.                        |
-|  ![Logo do YouTube](../Base/images/youtube.png)      |      YouTube       |                            Hospedagem de vídeos produzidos.                             |
+|  ![Logo do YouTube](../Base/images/youtube.png)      |      YouTube       |                            Hospedagem de vídeos produzidos.  
+| ![Logo do PlantUML](../Base/images/plantumlLOGO.png) | PlantUML | Geração eficiente de diagramas |                           |
 
 
 <p align="center">Fonte: Grupo 02 (2026).</p>
@@ -60,6 +61,8 @@ O **Draw.io** foi utilizado na elaboração dos diagramas relacionados às ativi
 O **Visual Studio Code** foi utilizado para criação, edição e organização dos arquivos Markdown e demais arquivos necessários para a documentação do projeto.
 
 O **ChatGPT** foi utilizado como ferramenta de apoio durante as atividades da entrega, principalmente para esclarecimento de conceitos, organização de informações, revisão textual e apoio à análise das alternativas de modelagem. As sugestões produzidas pela ferramenta foram avaliadas pelos integrantes antes de sua utilização nos artefatos finais.
+
+O **PlantUML** foi utilizado para gerar diagramas com sua linguagem de instrução eficiente.
 
 ## Referências Bibliográficas
 
@@ -81,9 +84,12 @@ O **ChatGPT** foi utilizado como ferramenta de apoio durante as atividades da en
 
 > 9. **GOOGLE.** How YouTube Works. [Mountain View, CA]: Google, c2026. Disponível em: https://www.youtube.com/howyoutubeworks/. Acesso em: 17 set. 2026.
 
+> 10. **PlantUML.** PlantUML [France]: plantuml, c2026. Disponível em: https://plantuml.com/. Acesso em 16 set. 2026.
+
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 16/09/2026 | Criação da página de Ferramentas da Entrega 02. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial da página, identificação dos participantes e registro das principais ferramentas utilizadas nas atividades de modelagem e documentação. |
+| 1.1 | 17/09/2026 | Lembrando de adicionar o PlantUML como ferramenta | [Isaac Menezes](https://github.com/pratamz250) | [Arthur Fernandes](https://github.com/arthurfernandesj) | |
