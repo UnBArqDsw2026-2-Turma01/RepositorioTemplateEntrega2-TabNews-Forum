@@ -109,7 +109,11 @@ Por fim, essas observações conversam de perto com o parecer recebido na Entreg
 
 ## Referências
 
-*Listar as referências utilizadas, em ordem alfabética.*
+ANTHROPIC. **Claude**. Disponível em: [https://www.anthropic.com/claude](https://www.anthropic.com/claude). Acesso em: 18 set. 2026.
+
+ANTHROPIC. **Claude Code: documentação oficial**. Disponível em: [https://docs.claude.com/en/docs/claude-code](https://docs.claude.com/en/docs/claude-code). Acesso em: 18 set. 2026.
+
+GOOGLE. **Gemini**. Disponível em: [https://gemini.google.com](https://gemini.google.com). Acesso em: 18 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
