@@ -25,7 +25,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 | Nome do Membro | Lições Aprendidas | Uso da IA Generativa (senso crítico) |
 |----------------|-------------------|--------------------------------------|
 |[Pablo Rodrigues](https://github.com/Pablo-R-L)|Aprendi bastante informações sobre diagramas de classes e de casos de uso que é um modelo que só havia ouvido falar até então, o Plantuml foi especialmente util, junto com a IA, para me informar sobre as notações que eu podia ou não usar, aprendi um pouco mais sobre engenharia reversa como encontrar as partes do codigo que preciso e me familiarizei um pouco mais com javaScript.|Aqui a IA foi mais uma vez uma ótima ferramenta, servindo como um tipo de "copiloto" eu utilizei principalmente a IA do LucidChart para me dar sugestões de como melhorar o que eu ja havia feito ou se precisava adicionar mais algum detalhe. Usei também o Claude para encontrar a pasta com o código referente à pagina inicial no github do Tabnews e também para listar os tipos de diagramas estáticos e dinâmicos para me ajudar a decidir qual fazer.|
-|                |                   |                                      |
+|[Isaac Menezes](https://github.com/pratamz250)|O uso da IA facilita muito quando a necessidade é de um norte em algo que não dominamos. No caso, ter instruções da IA para me ajudar a construir os códigos na plataforma PlantUML foi muito útil, sem ela não conseguiria fazer as contribuições com tanta qualidade. Ao mesmo tempo, deve-se ter senso crítico para saber o que aceitar ou não vindo dessas ferramentas.|A crítica que sempre faço é em usarmos o que a IA produz de forma desregrada sem revisão. Essas ferramentas erram e cabe a nós filtrar seus resultados. Desde uma cor específica em um componente a um fluxo que não faz sentido com o problema do mundo real, devemos banir o que não tem qualidade e melhorar o que é razoável.|
 |                |                   |                                      |
 
 <p align="center">Tabela 1: Pontos de vista dos integrantes sobre o uso de IA Generativa.</p>
@@ -50,6 +50,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
 | 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
+| 1.2 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Isaac Menezes](https://github.com/pratamz250) | | Adicionado contribuições cabíveis |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
