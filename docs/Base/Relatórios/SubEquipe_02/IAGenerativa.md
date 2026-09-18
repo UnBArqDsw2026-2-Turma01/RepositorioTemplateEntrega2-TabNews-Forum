@@ -50,7 +50,7 @@ Em resumo, a conclusão da SubEquipe_02 é que a IA Generativa foi uma ferrament
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
 | Pablo Rodrigues | Lucid AI | Ajuda na elaboração dos diagramas, tirar dúvidas e dar sugestões. | [Print 1](../../images/Uso_da_IA_1.png), [Print 2](../../images/Uso_da_IA_2.png) |
-
+| Pedro Ramos | Gemini & Manus AI | Ajuda na organização e criação dos diagramas, duvídas e sugestões. | [Solicitação de organização](https://share.gemini.google/JIbf32pZwzcz) · [Geração de código](https://manus.im/share/v3ih5nsJid7OAruc4LtZ6J) |
 
 
 ## Referências
