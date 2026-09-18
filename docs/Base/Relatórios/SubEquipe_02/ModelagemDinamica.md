@@ -81,7 +81,7 @@ O diagrama de atividades detalha o fluxo de interação do usuário no TabNews, 
 * **Comportamento reativo:** Fica claro que o sistema não é linear. As respostas da interface dependem de escolhas do usuário, regras de negócio e validações do servidor para garantir uma experiência consistente no fórum.
 
 <div align="center">
-  <img src="../../../Base/images/Diagrama_atividades.png" alt="Diagrama de Atividades" width="1100">
+  <img src="../../../Base/images/Diagrama_Atividades.png" alt="Diagrama de Atividades" width="1100">
   
   <p><strong>Figura 3:</strong> Diagrama de Atividades. Fonte: SubEquipe_02 (2026).</p>
 </div>
