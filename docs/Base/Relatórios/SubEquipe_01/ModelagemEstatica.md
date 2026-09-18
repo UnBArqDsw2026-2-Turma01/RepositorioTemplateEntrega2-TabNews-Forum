@@ -143,7 +143,7 @@ A modelagem do processo de Login e Autenticação permitiu compreender a separa�
 
 O recorte também contribuiu para visualizar como o processo de autenticação pode ser representado estruturalmente, facilitando a compreensão das relações entre os elementos envolvidos.
 
-### [João Pedro Sampaio Maciel]
+### João Pedro Sampaio Maciel
 
 A elaboração do Diagrama de Componentes permitiu enxergar a funcionalidade de Login e Autenticação sob uma perspectiva arquitetural, evidenciando como os componentes se comunicam por meio de interfaces fornecidas e requeridas.
 
