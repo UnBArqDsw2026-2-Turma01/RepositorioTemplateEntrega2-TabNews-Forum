@@ -84,8 +84,14 @@ O diagrama de componentes foi elaborado com o objetivo de representar a organiza
 </div>
 
 ## Pontos de Vista dos Integrantes
+
 ### Pablo Rodrigues
+
 O diagrama de classes possibilitou compreender com mais clareza como as funciolidades da tela inicial estão estruturadas em relação às suas classes. O processo de criação do diagrama também trouxe a tona funções que passariam despercebido normalmente, como a geração de anuncios e a autorização das postagens, também como cada função pode facilmente interagir em outras areas do codigo por meio da importação de classes, sem a necessidade de criar isoladamente uma função para cada.
+
+### Pedro Ramos
+
+O diagrama de componentes ajudou bastante a entender a arquitetura do TabNews e como os módulos se conversam para entregar algo bem organizado para o usuário. Graças a ele, foi possível perceber que a aplicação não é só um monte de tela isolada, mas uma estrutura em que a interface, os serviços e o banco de dados interagem entre si.
 
 ## Referências
 
