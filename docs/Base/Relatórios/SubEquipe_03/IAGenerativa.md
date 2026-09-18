@@ -79,7 +79,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
 | Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada, e automação do versionamento (organização dos commits, redação das mensagens e descrição do *pull request*). | [Histórico de commits](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) · [Commits da branch `docs/sub03-caio`](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/docs/sub03-caio) |
-| Guilherme Moura da Silva Neto | Gemini | Geração de código-base em PlantUML para os Diagramas de Classes e de Comunicação e apoio na estruturação, revisão e refinamento da documentação. | [Print da Versão Inicial](docs/Base/images/SubEquipe_03/diagrama-versao-inicial-ia.png) |
+| Guilherme Moura da Silva Neto | Gemini | Geração de código-base em PlantUML para os Diagramas de Classes e de Comunicação e apoio na estruturação, revisão e refinamento da documentação. | [Print da Versão Inicial](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/blob/main/docs/Base/images/SubEquipe_03/diagrama-versao-inicial-ia.png) |
 | Leonardo Fachinello Bonetti | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 
 <p align="center">Tabela 2: Evidências do uso de IA Generativa.</p>
