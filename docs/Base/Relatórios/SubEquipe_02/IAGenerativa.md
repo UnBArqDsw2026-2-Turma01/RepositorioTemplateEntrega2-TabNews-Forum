@@ -45,6 +45,14 @@ No entanto, a IA não deve ser utilizada de forma automática e sem uma análise
 
 Em resumo, a conclusão da SubEquipe_02 é que a IA Generativa foi uma ferramenta valiosa para apoiar a criação e a organização das entregas, mas seu uso deve ser guiado por revisão crítica, validação de conteúdo e supervisão humana.
 
+## Evidências do Uso de IA Generativa
+
+| Integrante | Ferramenta | Finalidade | Evidência |
+|:---|:---|:---|:---|
+| Pablo Rodrigues | Lucid AI | Ajuda na elaboração dos diagramas, tirar dúvidas e dar sugestões. | [Print 1](../../images/Uso_da_IA_1.png), [Print 2](../../images/Uso_da_IA_2.png) |
+
+
+
 ## Referências
 
 H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0, IEEE Computer Society, 2024. Acesso em 14 set. de 2026.
@@ -76,6 +84,7 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 | 1.2 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Isaac Menezes](https://github.com/pratamz250) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado contribuições cabíveis |
 | 1.3 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Adicionado contribuições cabíveis |
 | 1.4 | 17/09/2026 | Inclusão do resumo da análise crítica do uso de IA Generativa. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Adicionado o resumo consolidado da análise crítica da equipe sobre o uso da IA Generativa. |
+| 1.5 | 17/09/2026 | Inclusão das evidencias de uso da IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado o resumo consolidado da análise crítica da equipe sobre o uso da IA Generativa. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
