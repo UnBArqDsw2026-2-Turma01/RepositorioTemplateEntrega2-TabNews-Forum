@@ -104,7 +104,7 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 |:---|:---|:---|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | Estruturação, organização e revisão do documento de IA Generativa. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/a7f2323f98fd069ac83a71915630125dbd4061c1) |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro da experiência individual e contribuição para o FOCO_03. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/7ba2bc6a445ed1a17b7ce53bc367f48e585f0d10) |
-| [João Pedro S. Maciel](https://github.com/jopesmp) | Registro da experiência individual de uso de IA Generativa na engenharia reversa e no Diagrama de Componentes de Login e Autenticação. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/preencher) |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | Registro da experiência individual de uso de IA Generativa na engenharia reversa e no Diagrama de Componentes de Login e Autenticação. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/aa95752ee74ad379c01f9857588790b34b63f6f8) |
 
 ## Evidências do Uso de IA Generativa
 
