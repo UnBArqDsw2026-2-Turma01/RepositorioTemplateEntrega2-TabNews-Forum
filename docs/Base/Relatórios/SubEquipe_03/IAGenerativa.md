@@ -42,11 +42,13 @@ A validação dos artefatos permaneceu sob responsabilidade do integrante: os di
 
 **Lições aprendidas**
 
-PREENCHA
+Durante a elaboração da modelagem dinâmica, a principal lição aprendida foi o potencial da IA Generativa como facilitadora para contornar a curva de aprendizado de novas ferramentas tecnológicas. A utilização da IA para gerar a sintaxe do PlantUML provou-se consideravelmente mais ágil do que o estudo inicial da linguagem a partir do zero ou a busca exaustiva por templates. Contudo, a experiência evidenciou que a IA atua primordialmente como um acelerador de ponto de partida, sendo indispensável a intervenção e a revisão humana iterativa para refinar o diagrama e adequá-lo às especificidades lógicas do domínio modelado.
 
 **Uso da IA Generativa e senso crítico**
 
-PREENCHA
+A IA Generativa foi empregada de forma central na transcrição do fluxo modelado para o código PlantUML. Por não haver familiaridade prévia com a sintaxe da plataforma, solicitou-se à IA a geração de um esboço inicial dos Diagramas de Classes e de Comunicação. A partir desse modelo-base, aplicou-se o senso crítico para realizar o refinamento manual do código, corrigindo eventuais erros de sintaxe estrutural gerados pela ferramenta e ajustando as interações para refletir a regra de negócio analisada. Para fins de comparação e demonstração desse processo, um registro da versão inicial bruta gerada pela ferramenta foi incluído nas evidências, permitindo observar as modificações implementadas até o resultado final.
+
+Adicionalmente, a IA foi utilizada como suporte para a formatação e organização da documentação técnica da página. A ferramenta auxiliou na estruturação dos tópicos e na padronização textual.
 
 ### Leonardo Fachinello Bonetti
 
@@ -88,7 +90,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 | Integrante | Ferramenta | Finalidade | Evidência |
 |:---|:---|:---|:---|
 | Caio Alexandre Ornelas Silva | Claude (Claude Code) | Aceleração do desenvolvimento dos artefatos da entrega, com apoio na elaboração dos diagramas UML em PlantUML e da documentação associada, e automação do versionamento (organização dos commits, redação das mensagens e descrição do *pull request*). | [Histórico de commits](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/main?author=bitterteriyaki) · [Commits da branch `docs/sub03-caio`](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commits/docs/sub03-caio) |
-| Guilherme Moura da Silva Neto | PREENCHA | PREENCHA | [Registro/Print](LINK) |
+| Guilherme Moura da Silva Neto | Gemini | Geração de código-base em PlantUML para os Diagramas de Classes e de Comunicação e apoio na estruturação, revisão e refinamento da documentação. | [Print da Versão Inicial](docs/Base/images/SubEquipe_03/diagrama-versao-inicial-ia.png) |
 | Leonardo Fachinello Bonetti | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 | Pablo Rodrigues Lima | PREENCHA | PREENCHA | [Registro/Print](LINK) |
 
@@ -116,6 +118,7 @@ PREENCHA — análise coletiva da SubEquipe_03 sobre as contribuições e as lim
 | 1.0 | 13/09/2026 | Criação do documento de IA Generativa da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
 | 1.1 | 17/09/2026 | Reestruturação do documento e registro da experiência individual do integrante. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Substituição da tabela de pontos de vista por seções individuais por integrante, inclusão das seções de Análise Crítica e de Evidências de Participação e de Uso de IA Generativa, e registro do ponto de vista do integrante Caio Alexandre. |
 | 1.2 | 17/09/2026 | Registro do uso de IA Generativa na automação do versionamento. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Inclusão, no ponto de vista individual e na tabela de evidências, do uso da ferramenta na organização dos commits, na redação das mensagens e na elaboração da descrição do pull request, com o histórico de commits como evidência. |
+| 1.3 | 17/09/2026 | Registro do uso de IA Generativa e lições aprendidas do integrante Guilherme Moura. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Inclusão do relato individual sobre a geração de código-base em PlantUML para os diagramas (Classes e Comunicação), refinamento manual e suporte na formatação da documentação técnica, com respectiva atualização da tabela de evidências. |
 
 <p align="center">Tabela 4: Histórico de Versões.</p>
 
