@@ -323,7 +323,7 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  | [Guilherme Moura](https://github.com/Guilherme-Moura) | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 17/09/2026 | Adição do Diagrama de Casos de Uso e do Diagrama de Sequência da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração dos dois diagramas em PlantUML, definição da seção Escolha da Modelagem com a justificativa da complementaridade entre os diagramas de interação e inclusão das referências bibliográficas. |
 | 1.2 | 17/09/2026 | Adição do Diagrama de Estados do conteúdo da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Estados em PlantUML, com os estados Rascunho, Publicado, Em revisão e Removido, transições no formato evento/guarda/ação, notas das transições bloqueadas e do estado que torna o conteúdo visível, além da rastreabilidade das decisões no texto da seção, do item 4 na Escolha da Modelagem e das referências correspondentes. |
 | 1.3 | 17/09/2026 | Adição do Diagrama de Comunicação para o fluxo de avaliação de conteúdo. | [Guilherme Moura](https://github.com/Guilherme-Moura) | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Inserção do artefato visual correspondente à modelagem do fluxo de votação em TabCoins.
@@ -331,4 +331,3 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
-Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [IA Generativa](IAGenerativa.md)

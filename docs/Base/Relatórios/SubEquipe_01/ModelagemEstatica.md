@@ -165,9 +165,9 @@ As evidências apresentadas devem permitir a identificação da participação i
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
-| [João Pedro S. Maciel](https://github.com/jopesmp) | |
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,33% |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,33%|
+| [João Pedro S. Maciel](https://github.com/jopesmp) | 33,33%  |
 
 
 <p align="center">Tabela 2: Contribuição dos integrantes.</p>
@@ -196,10 +196,10 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 | 1.1 | 15/09/2026 | Elaboração do Diagrama de Classes completo do sistema Fórum. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Desenvolvimento do modelo estrutural completo do sistema, contemplando as classes Usuario, Credencial, Autenticacao, Sessao, RecuperacaoSenha, Perfil, Publicacao, Comentario, Categoria, Avaliacao, Interaçao e Busca, além da definição de seus atributos, métodos, relacionamentos e multiplicidades. |
 | 1.2 | 16/09/2026 | Elaboração da modelagem relacionada ao Login e Autenticação. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Desenvolvimento do recorte do Diagrama de Classes referente ao Login e Autenticação, contemplando as classes Usuario, Credencial, Autenticacao e Sessao, seus atributos, métodos e principais relacionamentos. |
 | 1.3 | 17/09/2026 | Ajustes e atualização do documento de Modelagem Estática. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Revisão e integração das contribuições da SubEquipe_01, ajustes na estrutura e descrição do documento, organização do Diagrama de Classes completo, adequação do recorte de Login e Autenticação, correção dos caminhos das imagens e atualização da documentação para a entrega. |
-| 1.4 | 17/09/2026 | Adição do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [preencher](https://github.com/preencher) | Elaboração do Diagrama de Componentes referente ao Login e Autenticação, incluindo os componentes de UI, API de Sessões, Rate Limiter, Serviço de Autenticação, Serviço de Usuários, Gerenciador de Sessão, Serviço de Recuperação de Senha, Banco de Dados, Serviço de E-mail e Cache/Rate Limit, com suas respectivas interfaces fornecidas e requeridas. Atualização das seções de metodologia, escolha da modelagem, senso crítico, decisões da subequipe, pontos de vista, participação e referências para contemplar o novo diagrama. |
+| 1.4 | 17/09/2026 | Adição do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [Arthur Fernandes](https://github.com/arthurfernandesj)| Elaboração do Diagrama de Componentes referente ao Login e Autenticação, incluindo os componentes de UI, API de Sessões, Rate Limiter, Serviço de Autenticação, Serviço de Usuários, Gerenciador de Sessão, Serviço de Recuperação de Senha, Banco de Dados, Serviço de E-mail e Cache/Rate Limit, com suas respectivas interfaces fornecidas e requeridas. Atualização das seções de metodologia, escolha da modelagem, senso crítico, decisões da subequipe, pontos de vista, participação e referências para contemplar o novo diagrama. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
 ---
 
-Ver também: [Modelagem Dinâmica na Notação UML](ModelagemDinamica.md) · [IA Generativa](IAGenerativa.md)
+

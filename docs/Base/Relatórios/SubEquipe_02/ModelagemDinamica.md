@@ -139,4 +139,3 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
-Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [IA Generativa](IAGenerativa.md)

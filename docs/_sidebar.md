@@ -40,8 +40,4 @@
 
   - [Reuniões Gerais](Base/Atas/ReunioesGerais.md)
 
-  - [Subgrupo 01](Base/Atas/Subgrupo01.md)
-
-  - [Subgrupo 02](Base/Atas/Subgrupo02.md)
-
   - [Subgrupo 03](Base/Atas/Subgrupo03.md)

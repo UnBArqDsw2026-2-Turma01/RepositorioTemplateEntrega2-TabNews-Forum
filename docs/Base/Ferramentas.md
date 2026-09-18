@@ -23,9 +23,9 @@ Todos os participantes do grupo contribuíram para o desenvolvimento das ativida
 | 23/1029841 | Pablo Rodrigues Lima | [@Pablo-R-L](https://github.com/Pablo-R-L) | 02 |
 | 22/2031680 | Pedro Ramos Sousa Reis | [@PedroRSR](https://github.com/PedroRSR) | 02 |
 | 22/1007644 | Caio Alexandre Ornelas Silva | [@bitterteriyaki](https://github.com/bitterteriyaki) | 03 |
-| 231012227 | Guilherme Moura da Silva Neto | --- | 03 |
-| 221022060 | Leonardo Fachinello Bonetti | [@LeoFacB](https://github.com/LeoFacB) | 03 |
-| 231029841 | Pablo Rodrigues Lima | [@Pablo-R-L](https://github.com/Pablo-R-L) | 03 |
+| 22/1022060 | Leonardo Fachinello Bonetti | [@LeoFacB](https://github.com/LeoFacB) | 03 |
+
+
 
 <p align="center">Tabela 1: Participantes envolvidos nas atividades da entrega.</p>
 
@@ -91,5 +91,5 @@ O **PlantUML** foi utilizado para gerar diagramas com sua linguagem de instruç�
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 16/09/2026 | Criação da página de Ferramentas da Entrega 02. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial da página, identificação dos participantes e registro das principais ferramentas utilizadas nas atividades de modelagem e documentação. |
+| 1.0 | 16/09/2026 | Criação da página de Ferramentas da Entrega 02. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Isaac Menezes](https://github.com/pratamz250) | Criação da estrutura inicial da página, identificação dos participantes e registro das principais ferramentas utilizadas nas atividades de modelagem e documentação. |
 | 1.1 | 17/09/2026 | Lembrando de adicionar o PlantUML como ferramenta | [Isaac Menezes](https://github.com/pratamz250) | [Arthur Fernandes](https://github.com/arthurfernandesj) | |

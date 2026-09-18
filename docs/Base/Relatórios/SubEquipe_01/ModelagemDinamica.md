@@ -61,10 +61,24 @@ O fluxo representado parte da submissão das credenciais pelo usuário e contemp
 <div align="center">
   <img src="Base/images/diagrama_sequencia.png" alt="Diagrama de Sequência de Login e Autenticação" width="800">
   
-  <p><strong>Figura 3:</strong> Diagrama de Sequência — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
+  <p><strong>Figura 2:</strong> Diagrama de Sequência — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
 </div>
 
 O uso dos fragmentos alt permite representar, em um único diagrama, tanto o caminho de sucesso quanto os caminhos alternativos de erro, deixando explícitas as barras de ativação (o período em que cada elemento está processando uma requisição) e as respostas assíncronas devolvidas à interface. Dessa forma, o Diagrama de Sequência complementa o Diagrama de Estados, oferecendo uma visão da interação entre os elementos ao longo do tempo, e não apenas dos estados assumidos pelo processo.
+
+---
+
+## Nível de Contribuição dos Integrantes
+
+| Nome | % de Contribuição |
+|:---|:---:|
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,3% |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,3% |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | 33,3% |
+
+<p>Tabela 1: Contribuição dos integrantes.</p>
+
+---
 
 ## Referências
 
@@ -83,24 +97,15 @@ O uso dos fragmentos alt permite representar, em um único diagrama, tanto o cam
 </p>
 
 
-## Nível de Contribuição dos Integrantes
 
-| Nome | % de Contribuição |
-|:---|:---:|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,3% |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,3% |
-| [João Pedro S. Maciel](https://github.com/jopesmp) | 33,3% |
-
-<p align="center">Tabela 1: Contribuição dos integrantes.</p>
+---
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
-| 1.1 | 17/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Giovana Fontes](https://github.com/GiovanaFontesS)  |  | Modelagem Dinamica, introdução e desenvolvimento |
-| 1.2 | 17/09/2026 | Inclusão do Diagrama de Sequência de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [preencher](https://github.com/preencher) | Elaboração do Diagrama de Sequência do fluxo de Login e Autenticação. |
+| 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj)  | [Giovana Fontes](https://github.com/GiovanaFontesS) | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.1 | 17/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Giovana Fontes](https://github.com/GiovanaFontesS) e [Arthur Fernandes](https://github.com/arthurfernandesj) | [João Pedro S. Maciel](https://github.com/jopesmp) | Modelagem Dinamica, introdução e desenvolvimento |
+| 1.2 | 17/09/2026 | Inclusão do Diagrama de Sequência de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Sequência do fluxo de Login e Autenticação. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
-
-Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [IA Generativa](IAGenerativa.md)

@@ -118,9 +118,9 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
-| [João Pedro S. Maciel](https://github.com/jopesmp) | |
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,33%|
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,33%|
+| [João Pedro S. Maciel](https://github.com/jopesmp) | 33,33% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -144,5 +144,3 @@ ANTHROPIC. Claude: visão geral. Disponível em: https://www.anthropic.com/claud
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
 ---
-
-Ver também: [Modelagem Estática na Notação UML](ModelagemEstatica.md) · [Modelagem Dinâmica na Notação UML](ModelagemDinamica.md)
