@@ -141,4 +141,4 @@ Permanece em aberto a divergência quanto aos textos de metodologia e de escolha
 
 | Versão |    Data    | Descrição                                                        | Autor(es)                                                  | Revisor(es) | Detalhe da Revisão |
 | :----: | :--------: | :--------------------------------------------------------------- | :--------------------------------------------------------- | :---------- | :------------------ |
-|   1.0  | 17/09/2026 | Criação da ATA da reunião inicial da Entrega 02 da Subequipe 03. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |             |                     |
+|   1.0  | 17/09/2026 | Criação da ATA da reunião inicial da Entrega 02 da Subequipe 03. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Revisão e integração da ata ao repositório por meio do merge do Pull Request #22. |

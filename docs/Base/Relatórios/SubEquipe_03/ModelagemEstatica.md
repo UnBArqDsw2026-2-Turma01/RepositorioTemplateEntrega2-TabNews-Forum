@@ -231,9 +231,9 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
-| [Guilherme Moura](https://github.com/Guilherme-Moura) | 30% |
-| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
+| [Caio Alexandre](https://github.com/bitterteriyaki) | 33% |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | 33% |
+| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | 33% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -243,11 +243,11 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
 | 1.1 | 17/09/2026 | Estruturação do documento de Modelagem Estática para a funcionalidade Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Guilherme Moura](https://github.com/Guilherme-Moura) | Definição do escopo na Página da postagem, da metodologia e da justificativa do Diagrama de Classes, e organização das seções do Diagrama de Classes completo, do recorte da Árvore de Comentários e do recorte de Votação / TabCoins. |
-| 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
+| 1.2 | 17/09/2026 | Alteração da estrutura do documento e adição do Diagrama de Classes. | [Guilherme Moura](https://github.com/Guilherme-Moura) | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Atualização das seções de Metodologia e Escolha da Modelagem para refletir o uso de três modelos estáticos complementares, além da inserção do artefato visual do Diagrama de Classes. |
 | 1.3 | 17/09/2026 | Adição do Diagrama de Componentes da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Componentes em PlantUML, com organização em três camadas, notação de interfaces providas e requeridas, estereótipos nas fronteiras de execução e inclusão das referências correspondentes. |
-| 1.4 | 17/09/2026 | Adição do Diagrama de Implantação da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Implantação em PlantUML, com os nós de dispositivo, hospedagem, banco de dados e serviço externo de e-mail, os artefatos implantados em cada ambiente de execução, os caminhos de comunicação com os protocolos HTTPS, TCP/PostgreSQL e SMTP, e as relações de manifestação que ligam cada artefato aos componentes do Diagrama de Componentes. |
+| 1.4 | 17/09/2026 | Adição do Diagrama de Implantação da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | [Caio Alexandre](https://github.com/bitterteriyaki) | Elaboração do Diagrama de Implantação em PlantUML, com os nós de dispositivo, hospedagem, banco de dados e serviço externo de e-mail, os artefatos implantados em cada ambiente de execução, os caminhos de comunicação com os protocolos HTTPS, TCP/PostgreSQL e SMTP, e as relações de manifestação que ligam cada artefato aos componentes do Diagrama de Componentes. |
 | 1.5 | 17/09/2026 | Padronização das seções de Metodologia e Escolha da Modelagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Alinhamento das duas seções ao modelo adotado no documento de Modelagem Dinâmica, com a justificativa da complementaridade entre os diagramas estruturais fundamentada na UML 2.5.1 e em Booch, Rumbaugh e Jacobson (2005), e inclusão da referência correspondente. |
-| 1.7 | 17/09/2026 | Correção da lista de integrantes e atualização das contribuições. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Correção dos nomes dos membros da SubEquipe_03 e preenchimento da porcentagem de contribuição individual na tabela correspondente. |
+| 1.7 | 17/09/2026 | Correção da lista de integrantes e atualização das contribuições. | [Guilherme Moura](https://github.com/Guilherme-Moura) | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Correção dos nomes dos membros da SubEquipe_03 e preenchimento da porcentagem de contribuição individual na tabela correspondente. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
