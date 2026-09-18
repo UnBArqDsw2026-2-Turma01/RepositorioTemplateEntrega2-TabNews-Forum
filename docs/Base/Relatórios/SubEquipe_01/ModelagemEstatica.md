@@ -143,7 +143,7 @@ A modelagem do processo de Login e Autenticação permitiu compreender a separa�
 
 O recorte também contribuiu para visualizar como o processo de autenticação pode ser representado estruturalmente, facilitando a compreensão das relações entre os elementos envolvidos.
 
-### [preencher — autor(a) do Diagrama de Componentes]
+### [João Pedro Sampaio Maciel]
 
 A elaboração do Diagrama de Componentes permitiu enxergar a funcionalidade de Login e Autenticação sob uma perspectiva arquitetural, evidenciando como os componentes se comunicam por meio de interfaces fornecidas e requeridas.
 
@@ -157,7 +157,7 @@ A participação dos integrantes da SubEquipe_01 foi distribuída de acordo com 
 |:---|:---|:---|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | Estrutura geral do Diagrama de Classes, organização da documentação e ajustes da modelagem. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/2) |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | Modelagem do recorte de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/1) |
-| [preencher](https://github.com/preencher) | Elaboração do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/preencher) |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | Elaboração do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [Commit/PR](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/pull/preencher) |
 
 As evidências apresentadas devem permitir a identificação da participação individual de cada integrante por meio do histórico de versões, commits ou Pull Requests do repositório.
 
@@ -167,7 +167,7 @@ As evidências apresentadas devem permitir a identificação da participação i
 |:---|:---:|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | |
-| [preencher](https://github.com/preencher) | |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | |
 
 
 <p align="center">Tabela 2: Contribuição dos integrantes.</p>
@@ -196,7 +196,7 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 | 1.1 | 15/09/2026 | Elaboração do Diagrama de Classes completo do sistema Fórum. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Desenvolvimento do modelo estrutural completo do sistema, contemplando as classes Usuario, Credencial, Autenticacao, Sessao, RecuperacaoSenha, Perfil, Publicacao, Comentario, Categoria, Avaliacao, Interaçao e Busca, além da definição de seus atributos, métodos, relacionamentos e multiplicidades. |
 | 1.2 | 16/09/2026 | Elaboração da modelagem relacionada ao Login e Autenticação. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Desenvolvimento do recorte do Diagrama de Classes referente ao Login e Autenticação, contemplando as classes Usuario, Credencial, Autenticacao e Sessao, seus atributos, métodos e principais relacionamentos. |
 | 1.3 | 17/09/2026 | Ajustes e atualização do documento de Modelagem Estática. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Revisão e integração das contribuições da SubEquipe_01, ajustes na estrutura e descrição do documento, organização do Diagrama de Classes completo, adequação do recorte de Login e Autenticação, correção dos caminhos das imagens e atualização da documentação para a entrega. |
-| 1.4 | 17/09/2026 | Adição do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [preencher](https://github.com/preencher) | [preencher](https://github.com/preencher) | Elaboração do Diagrama de Componentes referente ao Login e Autenticação, incluindo os componentes de UI, API de Sessões, Rate Limiter, Serviço de Autenticação, Serviço de Usuários, Gerenciador de Sessão, Serviço de Recuperação de Senha, Banco de Dados, Serviço de E-mail e Cache/Rate Limit, com suas respectivas interfaces fornecidas e requeridas. Atualização das seções de metodologia, escolha da modelagem, senso crítico, decisões da subequipe, pontos de vista, participação e referências para contemplar o novo diagrama. |
+| 1.4 | 17/09/2026 | Adição do Diagrama de Componentes da funcionalidade de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [preencher](https://github.com/preencher) | Elaboração do Diagrama de Componentes referente ao Login e Autenticação, incluindo os componentes de UI, API de Sessões, Rate Limiter, Serviço de Autenticação, Serviço de Usuários, Gerenciador de Sessão, Serviço de Recuperação de Senha, Banco de Dados, Serviço de E-mail e Cache/Rate Limit, com suas respectivas interfaces fornecidas e requeridas. Atualização das seções de metodologia, escolha da modelagem, senso crítico, decisões da subequipe, pontos de vista, participação e referências para contemplar o novo diagrama. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
