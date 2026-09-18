@@ -42,16 +42,54 @@ A representação utiliza a convenção gráfica da UML para diagramação de es
   <p><strong>Figura 2:</strong> Diagrama de Estados — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
 </div>
 
+O estado composto de cadastro centraliza todo o fluxo iterativo de registro: as etapas internas de coleta das credenciais, verificação dos parâmetros e confirmação do endereço de e-mail alternam-se caso ocorra alguma inconsistência nos dados, sem que essas validações intermediárias poluam o nível principal da aplicação. 
+
+Ao sair da etapa de autenticação, a transição guardada pela verificação de credenciais determina se o usuário é redirecionado com sucesso para a tela inicial (Home) ou se permanece retido na tentativa de acesso até a correção dos dados, garantindo que o ciclo só avance ao atingir o estado final de acesso autorizado.
+
+## Diagrama de Sequência
+
+Enquanto o Diagrama de Estados descreve os estados pelos quais o processo de acesso transita, o **Diagrama de Sequência** detalha a **ordem temporal das mensagens** trocadas entre os elementos do sistema durante a autenticação, evidenciando quem envia cada requisição, em que ordem e quais respostas são produzidas.
+
+Este diagrama modela o fluxo de **Login e Autenticação** do TabNews e mantém rastreabilidade com a Modelagem Estática da SubEquipe_01: os elementos que trocam mensagens (Formulário de Login, API de Sessões, Rate Limiter, Serviço de Autenticação, Serviço de Usuários, Banco de Dados e Gerenciador de Sessão) correspondem aos componentes representados no Diagrama de Componentes e encapsulam as classes Usuario, Credencial, Autenticacao e Sessao do Diagrama de Classes.
+
+O fluxo representado parte da submissão das credenciais pelo usuário e contempla três desfechos, organizados em fragmentos combinados (alt) da UML:
+
+* **Limite de requisições excedido:** ao enviar a requisição POST /api/v1/sessions, a API consulta o **Rate Limiter**. Caso o limite específico da rota de login tenha sido atingido, o sistema retorna uma resposta genérica equivalente a uma falha de login comum — comportamento observado na engenharia reversa do TabNews, que dificulta a enumeração de credenciais por não revelar que o bloqueio ocorreu por limite de requisições.
+* **Credenciais válidas:** dentro do limite, a API aciona o **Serviço de Autenticação**, que consulta o **Serviço de Usuários** e o **Banco de Dados** para obter os dados do usuário. Confirmada a validade das credenciais, o **Gerenciador de Sessão** gera o token de sessão, persiste a sessão e retorna o token à interface, que redireciona o usuário à página inicial (Home).
+* **Credenciais inválidas:** caso a verificação falhe, a API retorna erro de autenticação (401) e a interface mantém a tela de login, exibindo a mensagem de erro correspondente.
+
+<div align="center">
+  <img src="Base/images/diagrama_sequencia.png" alt="Diagrama de Sequência de Login e Autenticação" width="800">
+  
+  <p><strong>Figura 3:</strong> Diagrama de Sequência — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
+</div>
+
+O uso dos fragmentos alt permite representar, em um único diagrama, tanto o caminho de sucesso quanto os caminhos alternativos de erro, deixando explícitas as barras de ativação (o período em que cada elemento está processando uma requisição) e as respostas assíncronas devolvidas à interface. Dessa forma, o Diagrama de Sequência complementa o Diagrama de Estados, oferecendo uma visão da interação entre os elementos ao longo do tempo, e não apenas dos estados assumidos pelo processo.
+
 ## Referências
 
-*Listar as referências utilizadas, em ordem alfabética.*
+<p>
+  UNB FCTE — ARQDSW. Módulo de Modelagem. Disponível em: 
+  <a href="https://sites.google.com/view/unb-fcte-arqdsw/m%C3%B3dulos/m%C3%B3dulo-modelagem?authuser=0" target="_blank" rel="noopener noreferrer">
+    https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem
+  </a>. 
+  <small>Acesso em: 15 set. 2026.</small>
+</p>
+
+<p>
+  OBJECT MANAGEMENT GROUP. <strong>OMG Unified Modeling Language (OMG UML), Version 2.5.1</strong>. 2017. Disponível em:
+  <a href="https://www.omg.org/spec/UML/2.5.1/PDF" target="_blank" rel="noopener noreferrer">https://www.omg.org/spec/UML/2.5.1/PDF</a>.
+  <small>Acesso em: 17 set. 2026.</small>
+</p>
+
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Arthur Fernandes](https://github.com/arthurfernandesj) | |
-| [Giovana Fontes](https://github.com/GiovanaFontesS) | |
+| [Arthur Fernandes](https://github.com/arthurfernandesj) | 33,3% |
+| [Giovana Fontes](https://github.com/GiovanaFontesS) | 33,3% |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | 33,3% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -60,6 +98,8 @@ A representação utiliza a convenção gráfica da UML para diagramação de es
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
+| 1.1 | 17/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_01. | [Giovana Fontes](https://github.com/GiovanaFontesS)  |  | Modelagem Dinamica, introdução e desenvolvimento |
+| 1.2 | 17/09/2026 | Inclusão do Diagrama de Sequência de Login e Autenticação. | [João Pedro S. Maciel](https://github.com/jopesmp) | [preencher](https://github.com/preencher) | Elaboração do Diagrama de Sequência do fluxo de Login e Autenticação. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
