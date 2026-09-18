@@ -37,9 +37,25 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 <p align="center">Tabela 1: Pontos de vista dos integrantes sobre o uso de IA Generativa.</p>
 
+## Análise Crítica do Uso de IA Generativa
+
+A IA Generativa foi uma ferramenta bastante útil como apoio no processo de modelagem e no desenvolvimento das atividades, especialmente para orientar a estruturação de diagramas, identificar elementos relevantes e acelerar a busca por informações. A IA ajudou na organização de ideias, na compreensão de conceitos ainda não dominados e na revisão de artefatos, funcionando como um suporte que potencializa o trabalho do time.
+
+No entanto, a IA não deve ser utilizada de forma automática e sem uma análise crítica. Foram observadas limitações de precisão, inconsistências e respostas que exigem revisão, correção e validação humana.
+
+Em resumo, a conclusão da SubEquipe_02 é que a IA Generativa foi uma ferramenta valiosa para apoiar a criação e a organização das entregas, mas seu uso deve ser guiado por revisão crítica, validação de conteúdo e supervisão humana.
+
 ## Referências
 
-*Listar as referências utilizadas, em ordem alfabética.*
+H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0, IEEE Computer Society, 2024. Acesso em 14 set. de 2026.
+
+LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes](https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes). Acesso em: 15 set. 2026.
+
+OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
+
+TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.tabnews.com.br). Acesso em: 16 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -59,6 +75,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 | 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
 | 1.2 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Isaac Menezes](https://github.com/pratamz250) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado contribuições cabíveis |
 | 1.3 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Adicionado contribuições cabíveis |
+| 1.4 | 17/09/2026 | Inclusão do resumo da análise crítica do uso de IA Generativa. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Adicionado o resumo consolidado da análise crítica da equipe sobre o uso da IA Generativa. |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
 
