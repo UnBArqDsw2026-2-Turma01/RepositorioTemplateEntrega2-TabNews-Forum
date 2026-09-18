@@ -104,9 +104,9 @@ TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.t
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|Isaac Menezes| 33% |
-|Pablo Rodrigues|33%|
-|Pedro Ramos|33%|
+|Isaac Menezes| 33,3% |
+|Pablo Rodrigues|33,3%|
+|Pedro Ramos|33,3%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 

@@ -73,17 +73,35 @@ Modelo feito originalmente no Plantuml mas depois foi usado Lucidchart para util
   <p><strong>Figura 2:</strong> Diagrama de Classes. Fonte: SubEquipe_02 (2026).</p>
 </div>
 
+### Diagrama de Componentes - Pedro Ramos
+
+O diagrama de componentes foi elaborado com o objetivo de representar a organização estrutural do sistema TabNews, mostrando como os principais módulos se relacionam e como as responsabilidades são distribuídas entre o cliente, a interface, os serviços de aplicação e a base de dados. A partir da análise do modelo, é possível observar que o sistema é composto por diferentes subsistemas que se comunicam entre si, permitindo a navegação, o processamento de dados e a persistência das informações.
+
+<div align="center">
+  <img src="../../../Base/images/Diagrama_de_Componentes.png" alt="Diagrama de Componentes" width="1100">
+  
+  <p><strong>Figura 3:</strong> Diagrama de Componentes. Fonte: SubEquipe_02 (2026).</p>
+</div>
+
 ## Referências
 
 H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0, IEEE Computer Society, 2024. Acesso em 14 set. de 2026.
+
+LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes](https://app.lucid.co/pt/diagrama/uml/tutorial-de-diagrama-de-classes). Acesso em: 15 set. 2026.
+
+OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
+
+TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.tabnews.com.br). Acesso em: 16 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|Pedro Ramos|33%|
-|Isaac Menezes|33%|
-|Pablo Rodrigues|33%|
+|Isaac Menezes| 33,3% |
+|Pablo Rodrigues|33,3%|
+|Pedro Ramos|33,3%|
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -93,7 +111,8 @@ H. Washizaki, eds., Guide to the Software Engineering Body of Knowledge (SWEBOK 
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
 | 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Pedro Ramos](https://github.com/PedroRSR) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
 | 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |[Pablo Rodrigues](https://github.com/Pablo-R-L)| Inserção de Diagrama de Pacotes. |
-| 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
+| 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
+| 1.3 | 17/09/2026  | Inserção do diagrama de componentes e revisão do conteúdo estrutural do documento. | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Inclusão do diagrama de componentes e ajustes na organização do texto da modelagem estática. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
