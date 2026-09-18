@@ -47,7 +47,7 @@ Todos os componentes foram pensadas a partir dos seguintes objetos presentes no 
 De maneira evidente, esses objetos foram melhor ajustados, levando em consideração seus comportamentos e dependências no site, para gerar o seguinte Diagrama de Pacotes.
 
 <div align="center">
-  <img src="../../../Base/images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
+  <img src="../../images/modeloPacotes1_isaacMenezes.png" alt="Diagrama de pacotes" width="800">
   
   <p><strong>Figura 1:</strong> Diagrama de Pacotes. Fonte: SubEquipe_02 (2026).</p>
 </div>
@@ -68,7 +68,7 @@ As classes retratadas são:
 Modelo feito originalmente no Plantuml mas depois foi usado Lucidchart para utilizar a IA para correções e sugestões.
 
 <div align="center">
-  <img src="../../../Base/images/diagrama_de_classes-sub02.png" alt="Diagrama de classes" width="800">
+  <img src="../../images/diagrama_de_classes-sub02.png" alt="Diagrama de classes" width="800">
   
   <p><strong>Figura 2:</strong> Diagrama de Classes. Fonte: SubEquipe_02 (2026).</p>
 </div>
@@ -78,7 +78,7 @@ Modelo feito originalmente no Plantuml mas depois foi usado Lucidchart para util
 O diagrama de componentes foi elaborado com o objetivo de representar a organização estrutural do sistema TabNews, mostrando como os principais módulos se relacionam e como as responsabilidades são distribuídas entre o cliente, a interface, os serviços de aplicação e a base de dados. A partir da análise do modelo, é possível observar que o sistema é composto por diferentes subsistemas que se comunicam entre si, permitindo a navegação, o processamento de dados e a persistência das informações.
 
 <div align="center">
-  <img src="../../../Base/images/Diagrama_de_Componentes.png" alt="Diagrama de Componentes" width="1100">
+  <img src="../../images/Diagrama_de_Componentes.png" alt="Diagrama de Componentes" width="1100">
   
   <p><strong>Figura 3:</strong> Diagrama de Componentes. Fonte: SubEquipe_02 (2026).</p>
 </div>
