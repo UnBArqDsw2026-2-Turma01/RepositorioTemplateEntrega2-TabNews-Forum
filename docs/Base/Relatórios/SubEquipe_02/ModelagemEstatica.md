@@ -87,7 +87,7 @@ O diagrama de componentes foi elaborado com o objetivo de representar a organiza
 
 ### Pablo Rodrigues
 
-O diagrama de classes possibilitou compreender com mais clareza como as funciolidades da tela inicial estão estruturadas em relação às suas classes. O processo de criação do diagrama também trouxe a tona funções que passariam despercebido normalmente, como a geração de anuncios e a autorização das postagens, também como cada função pode facilmente interagir em outras areas do codigo por meio da importação de classes, sem a necessidade de criar isoladamente uma função para cada.
+O diagrama de classes possibilitou compreender com mais clareza como as funciolidades da tela inicial estão estruturadas em relação às suas classes. O processo de criação do diagrama também trouxe a tona funções que passariam despercebido normalmente, como a geração de anúncios e a autorização das postagens, também como cada função pode facilmente interagir em outras áreas do código por meio da importação de classes, sem a necessidade de criar isoladamente uma função para cada.
 
 ### Pedro Ramos
 
@@ -101,9 +101,9 @@ LUCID SOFTWARE INC. **Tutorial de diagrama de classes UML**. Disponível em: [ht
 
 OBJECT MANAGEMENT GROUP. **OMG Unified Modeling Language (OMG UML), Version 2.5.1**. 2017. Disponível em: [https://www.omg.org/spec/UML/2.5.1/PDF](https://www.omg.org/spec/UML/2.5.1/PDF). Acesso em: 15 set. 2026.
 
-UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
-
 TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.tabnews.com.br). Acesso em: 16 set. 2026.
+
+UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0](https://sites.google.com/view/unb-fcte-arqdsw/módulos/módulo-modelagem?authuser=0). Acesso em: 15 set. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -123,7 +123,8 @@ TABNEWS. **TabNews**. Disponível em: [https://www.tabnews.com.br](https://www.t
 | 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |[Pablo Rodrigues](https://github.com/Pablo-R-L)| Inserção de Diagrama de Pacotes. |
 | 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 | 1.3 | 17/09/2026  | Inserção do diagrama de componentes e revisão do conteúdo estrutural do documento. | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Inclusão do diagrama de componentes e ajustes na organização do texto da modelagem estática. |
-| 1.4 | 17/09/2026  | Organização do tópico de pontos de vista. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  |  |
+| 1.4 | 17/09/2026  | Organização do tópico de pontos de vista. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Vericação da correção gramatical |
+| 1.5 | 17/09/2026 | Adição do meu ponto de vista. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Vericação da correção gramatical |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
