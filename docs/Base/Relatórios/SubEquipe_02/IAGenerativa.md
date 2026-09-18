@@ -79,8 +79,8 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
-| 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
+| 1.0 | 13/09/2026 | Criação do documento de IA Generativa da SubEquipe_02. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Pedro Ramos](https://github.com/PedroRSR) | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.1 | 17/09/26 |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
 | 1.2 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Isaac Menezes](https://github.com/pratamz250) | [Pedro Ramos](https://github.com/PedroRSR) | Adicionado contribuições cabíveis |
 | 1.3 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Adicionado contribuições cabíveis |
 | 1.4 | 17/09/2026 | Inclusão do resumo da análise crítica do uso de IA Generativa. | [Pedro Ramos](https://github.com/PedroRSR) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Adicionado o resumo consolidado da análise crítica da equipe sobre o uso da IA Generativa. |

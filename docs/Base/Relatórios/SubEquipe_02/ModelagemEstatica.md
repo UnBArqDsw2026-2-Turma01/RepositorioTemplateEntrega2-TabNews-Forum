@@ -123,7 +123,7 @@ UNB FCTE — ARQDSW. **Módulo de Modelagem**. Disponível em: [https://sites.go
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Pedro Ramos](https://github.com/PedroRSR) |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
+| 1.0 | 13/09/2026  | Criação do documento de Modelagem Estática na Notação UML da SubEquipe_02. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Pablo Rodrigues](https://github.com/Pablo-R-L) | Criação da estrutura inicial do documento e preparação para inserção da modelagem estática. |
 | 1.1 | 17/09/2026  | Inserção de Diagrama de Pacotes. | [Isaac Menezes](https://github.com/pratamz250) |[Pablo Rodrigues](https://github.com/Pablo-R-L)| Inserção de Diagrama de Pacotes. |
 | 1.2 | 17/09/2026  | Criação do diagrama de classes. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Pedro Ramos](https://github.com/PedroRSR) | Criação do diagrama de classes com a ferramenta lucidchart e adição, junto à descrição do diagrama, no documento. |
 | 1.3 | 17/09/2026  | Inserção do diagrama de componentes e revisão do conteúdo estrutural do documento. | [Pedro Ramos](https://github.com/PedroRSR) | [Isaac Menezes](https://github.com/pratamz250) | Inclusão do diagrama de componentes e ajustes na organização do texto da modelagem estática. |
