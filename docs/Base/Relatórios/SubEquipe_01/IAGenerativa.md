@@ -70,7 +70,25 @@ A experiência mostrou que a IA pode ser uma ferramenta útil para auxiliar na o
 * [**Conversa com o ChatGPT**](https://chatgpt.com/share/6aac69a3-4678-83e9-a2cc-72a15d4ef20e)
 * [**Conversa com o Gemini**](https://share.gemini.google/dljSZ62OEkTX)
 
+### João Pedro S. Maciel
 
+**Lições aprendidas**
+
+Durante a Entrega 02, utilizei a IA Generativa como apoio nas atividades de engenharia reversa e modelagem relacionadas à funcionalidade de Login e Autenticação do Fórum TabNews. A ferramenta foi empregada para analisar o comportamento da página de login, apoiar a elaboração do Diagrama de Componentes dessa funcionalidade e revisar e organizar a documentação produzida.
+
+Uma das principais lições aprendidas foi perceber que a IA é mais eficaz quando recebe um contexto claro e artefatos de referência: ao fornecer o modelo de outra subequipe e o escopo desejado, as respostas ficaram mais alinhadas ao projeto. Também percebi que, mesmo em um sistema de código aberto como o TabNews, é preciso separar o que foi de fato observado do que a IA apenas inferiu, registrando essa distinção como limitação da análise.
+
+**Uso da IA Generativa e senso crítico**
+
+A IA Generativa foi utilizada para apoiar a engenharia reversa do fluxo de login (análise das páginas de login, cadastro e recuperação de senha), a construção do Diagrama de Componentes em notação UML e a revisão e reescrita de trechos da documentação, mantendo o padrão adotado pela SubEquipe_01.
+
+As respostas foram verificadas antes de serem incorporadas ao projeto: os comportamentos descritos foram conferidos na própria página do TabNews e na documentação pública do repositório do projeto, e os componentes e interfaces do diagrama foram ajustados para manter rastreabilidade com o Diagrama de Classes já elaborado pela equipe. Sugestões que não correspondiam ao escopo ou que representavam suposições não confirmadas foram descartadas ou explicitamente registradas como limitações.
+
+A experiência reforçou que a IA Generativa acelera as etapas de levantamento, estruturação e revisão, mas que a validação técnica e as decisões de modelagem permanecem sob responsabilidade do integrante.
+
+**Registros da utilização das IAs Generativas**
+
+* [**Conversa com o Claude**](preencher-link-da-conversa)
 
 ## Análise Crítica do Uso de IA Generativa
 
@@ -86,6 +104,7 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 |:---|:---|:---|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | Estruturação, organização e revisão do documento de IA Generativa. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/a7f2323f98fd069ac83a71915630125dbd4061c1) |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | Registro da experiência individual e contribuição para o FOCO_03. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/7ba2bc6a445ed1a17b7ce53bc367f48e585f0d10) |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | Registro da experiência individual de uso de IA Generativa na engenharia reversa e no Diagrama de Componentes de Login e Autenticação. | [Commit](https://github.com/UnBArqDsw2026-2-Turma01/RepositorioTemplateEntrega2-TabNews-Forum/commit/preencher) |
 
 ## Evidências do Uso de IA Generativa
 
@@ -93,6 +112,7 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 |:---|:---|:---|:---|
 | Arthur Fernandes | ChatGPT | Apoio na análise, organização e revisão das atividades da entrega. | [Registro/Print](https://chatgpt.com/share/6aaac7eb-3590-83e9-924b-d533d55ca80b) |
 | Giovana Fontes | ChatGPT | Apoio nas atividades relacionadas à modelagem e documentação. | [Registro/Print](https://share.gemini.google/dljSZ62OEkTX) |
+| João Pedro S. Maciel | Claude | Apoio na engenharia reversa do login, na elaboração do Diagrama de Componentes e na revisão da documentação. | [Registro/Print](preencher-link-da-conversa) |
 
 ## Nível de Contribuição dos Integrantes
 
@@ -100,12 +120,15 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 |:---|:---:|
 | [Arthur Fernandes](https://github.com/arthurfernandesj) | |
 | [Giovana Fontes](https://github.com/GiovanaFontesS) | |
+| [João Pedro S. Maciel](https://github.com/jopesmp) | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
 ## Referências
 
 OPENAI. ChatGPT: visão geral. Disponível em: https://openai.com/chatgpt/overview/. Acesso em: 17 set. 2026.
+
+ANTHROPIC. Claude: visão geral. Disponível em: https://www.anthropic.com/claude. Acesso em: 17 set. 2026.
 
 ---
 
@@ -116,6 +139,7 @@ OPENAI. ChatGPT: visão geral. Disponível em: https://openai.com/chatgpt/overvi
 | 1.0 | 13/09/2026 | Criação do documento de IA Generativa da SubEquipe_01. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Criação da estrutura inicial para registro das lições aprendidas, experiências individuais e uso crítico de IA Generativa pelos integrantes. |
 | 1.1 | 14/09/2026 | Registro da experiência individual de uso de IA Generativa. | [Giovana Fontes](https://github.com/GiovanaFontesS) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Inclusão das lições aprendidas, descrição do uso da IA Generativa e análise crítica da experiência da integrante. |
 | 1.2 | 15/09/2026 | Complementação e revisão do documento de IA Generativa. | [Arthur Fernandes](https://github.com/arthurfernandesj) | [Giovana Fontes](https://github.com/GiovanaFontesS) | Integração das contribuições dos integrantes, inclusão da análise crítica, organização das evidências de participação e revisão da documentação. |
+| 1.3 | 17/09/2026 | Inclusão da experiência individual de João Pedro S. Maciel. | [João Pedro S. Maciel](https://github.com/jopesmp) | [preencher](https://github.com/preencher) | Registro do uso de IA Generativa (Claude) no apoio à engenharia reversa do login, à elaboração do Diagrama de Componentes de Login e Autenticação e à revisão da documentação, com atualização das seções de pontos de vista, evidências de participação, evidências de uso de IA, nível de contribuição e referências. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
