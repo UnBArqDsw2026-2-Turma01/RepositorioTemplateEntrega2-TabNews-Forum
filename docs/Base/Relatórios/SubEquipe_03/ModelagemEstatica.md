@@ -232,9 +232,8 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 | Nome | % de Contribuição |
 |:---|:---:|
 | [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
-| [Guilherme Moura](https://github.com/Guilherme-Moura) | |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | 30% |
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
-| [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -248,6 +247,7 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 | 1.3 | 17/09/2026 | Adição do Diagrama de Componentes da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração do Diagrama de Componentes em PlantUML, com organização em três camadas, notação de interfaces providas e requeridas, estereótipos nas fronteiras de execução e inclusão das referências correspondentes. |
 | 1.4 | 17/09/2026 | Adição do Diagrama de Implantação da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Implantação em PlantUML, com os nós de dispositivo, hospedagem, banco de dados e serviço externo de e-mail, os artefatos implantados em cada ambiente de execução, os caminhos de comunicação com os protocolos HTTPS, TCP/PostgreSQL e SMTP, e as relações de manifestação que ligam cada artefato aos componentes do Diagrama de Componentes. |
 | 1.5 | 17/09/2026 | Padronização das seções de Metodologia e Escolha da Modelagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | Alinhamento das duas seções ao modelo adotado no documento de Modelagem Dinâmica, com a justificativa da complementaridade entre os diagramas estruturais fundamentada na UML 2.5.1 e em Booch, Rumbaugh e Jacobson (2005), e inclusão da referência correspondente. |
+| 1.7 | 17/09/2026 | Correção da lista de integrantes e atualização das contribuições. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Correção dos nomes dos membros da SubEquipe_03 e preenchimento da porcentagem de contribuição individual na tabela correspondente. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 

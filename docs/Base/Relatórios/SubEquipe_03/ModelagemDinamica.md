@@ -178,18 +178,64 @@ deactivate UI
 
 ### 3. Diagrama de Comunicação
 
-O Diagrama de Comunicação representa o fluxo de avaliação de um conteúdo (votação em TabCoins), evidenciando a colaboração e a troca de mensagens entre os objetos participantes.
+O Diagrama de Comunicação representa o fluxo de avaliação de um conteúdo (votação em TabCoins). Focado na visão estrutural da interação, este diagrama  abdica da linha do tempo vertical para destacar a topologia da rede de objetos e nos vínculos (links) por onde as mensagens trafegam.
 
-<!-- ESPAÇO RESERVADO PARA O DIAGRAMA DE COMUNICAÇÃO
-     Artefato elaborado na branch `docs/sub03-dinamico`.
-     Ao integrar a branch, substituir este comentário por:
+A modelagem ilustra a requisição iniciada pelo usuário autenticado através da interface, que se comunica com o controlador da API. A partir desse ponto central, o diagrama evidencia o roteamento das mensagens sequenciadas (numeradas) entre os serviços do sistema. Observa-se a comunicação com o serviço de autenticação para validar o usuário antes que a ação seja processada, refletindo a segurança da rota.
 
-<div align="center">
-<img src="Base/images/SubEquipe_03/diagrama-comunicacao.png" alt="Diagrama de Comunicação do fluxo de avaliação" width="800">
-</div>
+Destaca-se, na colaboração estrutural, a necessidade de orquestrar diferentes domínios da aplicação para concluir um voto. O diagrama mapeia as conexões que permitem à API não apenas atualizar a pontuação do conteúdo votado, mas também interagir com o serviço financeiro/gamificado para creditar ou debitar o saldo de TabCoins do usuário, garantindo a consistência transacional da operação.
 
-<p align="center">Figura 3: Diagrama de Comunicação — avaliação de conteúdo. Fonte: SubEquipe_03 (2026).</p>
--->
+
+```plantuml
+@startuml
+allowmixing
+
+skinparam nodesep 80
+skinparam ranksep 100
+
+<style>
+object {
+  BackgroundColor #fbfcfd
+  BorderColor #2b3a4a
+  BorderThickness 1.5
+  FontColor #1a1a1a
+  FontSize 12
+  HeaderBackgroundColor #e8edf2
+  RoundCorner 0 
+}
+actor {
+  BackgroundColor #fbfcfd
+  BorderColor #2b3a4a
+}
+arrow {
+  LineColor #2b3a4a
+  FontColor #2b3a4a
+  FontSize 12
+  FontStyle bold
+}
+</style>
+
+actor "Usuário" as ator
+
+object "<u>: ForumController</u>" as ctrl
+object "<u>: ForumService</u>" as srv
+object "<u>: Repositorio</u>" as bd
+
+object "<u>novoVoto: Voto</u>" as voto
+object "<u>alvo: Conteudo</u>" as alvo
+object "<u>autorAlvo: Usuario</u>" as autorAlvo
+
+ator -right-> ctrl : " 1: avaliar() "
+ctrl -right-> srv : " 1.1: processarAvaliacao() "
+srv -right-> bd : " 1.1.4: salvarTransacao() "
+
+srv -up-> voto : " 1.1.2: new() "
+
+srv -down-> alvo : " 1.1.1: aplicarAvaliacao() "
+srv -down-> autorAlvo : " 1.1.3: receberTabCoinsRecompensa() "
+
+alvo -[hidden]right- autorAlvo
+@enduml
+```
 
 ### 4. Diagrama de Estados
 
@@ -268,9 +314,8 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 | Nome | % de Contribuição |
 |:---|:---:|
 | [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
-| [Guilherme Moura](https://github.com/Guilherme-Moura) | |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | 30% |
 | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
-| [Pablo Rodrigues Lima](https://github.com/Pablo-R-L) | |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -281,6 +326,8 @@ UML-DIAGRAMS.ORG. **UML Use Case Diagrams**. Disponível em: [https://www.uml-di
 | 1.0 | 13/09/2026 | Criação do documento de Modelagem Dinâmica na Notação UML da SubEquipe_03. | [Arthur Fernandes](https://github.com/arthurfernandesj)  |  | Criação da estrutura inicial do documento e preparação para inserção da modelagem dinâmica. |
 | 1.1 | 17/09/2026 | Adição do Diagrama de Casos de Uso e do Diagrama de Sequência da Página da postagem. | [Caio Alexandre](https://github.com/bitterteriyaki) | [Arthur Fernandes](https://github.com/arthurfernandesj) | Elaboração dos dois diagramas em PlantUML, definição da seção Escolha da Modelagem com a justificativa da complementaridade entre os diagramas de interação e inclusão das referências bibliográficas. |
 | 1.2 | 17/09/2026 | Adição do Diagrama de Estados do conteúdo da Página da postagem. | [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) |  | Elaboração do Diagrama de Estados em PlantUML, com os estados Rascunho, Publicado, Em revisão e Removido, transições no formato evento/guarda/ação, notas das transições bloqueadas e do estado que torna o conteúdo visível, além da rastreabilidade das decisões no texto da seção, do item 4 na Escolha da Modelagem e das referências correspondentes. |
+| 1.3 | 17/09/2026 | Adição do Diagrama de Comunicação para o fluxo de avaliação de conteúdo. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Inserção do artefato visual correspondente à modelagem do fluxo de votação em TabCoins.
+| 1.4 | 17/09/2026 | Correção da lista de integrantes e atualização das contribuições. | [Guilherme Moura](https://github.com/Guilherme-Moura) | | Correção dos nomes dos membros da SubEquipe_03 e preenchimento da porcentagem de contribuição individual na tabela correspondente. |
 
 <p align="center">Tabela 2: Histórico de Versões.</p>
 
