@@ -76,7 +76,7 @@ A experiência mostrou que a IA pode ser uma ferramenta útil para auxiliar na o
 
 Durante a Entrega 02, utilizei a IA Generativa como apoio nas atividades de engenharia reversa e modelagem relacionadas à funcionalidade de Login e Autenticação do Fórum TabNews. A ferramenta foi empregada para analisar o comportamento da página de login, apoiar a elaboração do Diagrama de Componentes dessa funcionalidade e revisar e organizar a documentação produzida.
 
-Uma das principais lições aprendidas foi perceber que a IA é mais eficaz quando recebe um contexto claro e artefatos de referência: ao fornecer o modelo de outra subequipe e o escopo desejado, as respostas ficaram mais alinhadas ao projeto. Também percebi que, mesmo em um sistema de código aberto como o TabNews, é preciso separar o que foi de fato observado do que a IA apenas inferiu, registrando essa distinção como limitação da análise.
+Aprendi que, mesmo em um sistema de código aberto como o TabNews, é preciso separar o que foi de fato observado do que a IA apenas inferiu, registrando essa distinção como limitação da análise.
 
 **Uso da IA Generativa e senso crítico**
 
@@ -88,7 +88,7 @@ A experiência reforçou que a IA Generativa acelera as etapas de levantamento, 
 
 **Registros da utilização das IAs Generativas**
 
-* [**Conversa com o Claude**](preencher-link-da-conversa)
+* [**Conversa com o Claude**](https://claude.ai/chat/d008c015-1e52-46b5-94b1-27fde16ef8ab)
 
 ## Análise Crítica do Uso de IA Generativa
 
@@ -112,7 +112,7 @@ A experiência reforçou que a IA Generativa deve ser utilizada como ferramenta 
 |:---|:---|:---|:---|
 | Arthur Fernandes | ChatGPT | Apoio na análise, organização e revisão das atividades da entrega. | [Registro/Print](https://chatgpt.com/share/6aaac7eb-3590-83e9-924b-d533d55ca80b) |
 | Giovana Fontes | ChatGPT | Apoio nas atividades relacionadas à modelagem e documentação. | [Registro/Print](https://share.gemini.google/dljSZ62OEkTX) |
-| João Pedro S. Maciel | Claude | Apoio na engenharia reversa do login, na elaboração do Diagrama de Componentes e na revisão da documentação. | [Registro/Print](preencher-link-da-conversa) |
+| João Pedro S. Maciel | Claude | Apoio na engenharia reversa do login, na elaboração do Diagrama de Componentes e na revisão da documentação. | [Registro/Print](https://claude.ai/chat/d008c015-1e52-46b5-94b1-27fde16ef8ab) |
 
 ## Nível de Contribuição dos Integrantes
 
