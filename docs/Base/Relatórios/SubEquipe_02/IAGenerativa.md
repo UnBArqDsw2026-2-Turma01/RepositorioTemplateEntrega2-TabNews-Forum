@@ -45,15 +45,9 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Nome | % de Contribuição |
 |------|-------------------|
-<<<<<<< HEAD
 | Pablo Rodrigues | 33,3% |
 | Pedro Ramos | 33,3% |
 | Isaac Menezes | 33,3% |
-=======
-|Pablo Rodrigues|33%|
-| Isaac Menezes|33%|
-|      |                   |
->>>>>>> 772bcede9f670c642ee8b546c4be58017eda5001
 
 <p align="center">Tabela 2: Contribuição dos integrantes.</p>
 
