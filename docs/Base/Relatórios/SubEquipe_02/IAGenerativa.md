@@ -39,7 +39,7 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 | Nome | % de Contribuição |
 |------|-------------------|
 |Pablo Rodrigues|33%|
-|      |                   |
+| Isaac Menezes|33%|
 |      |                   |
 
 <p align="center">Tabela 2: Contribuição dos integrantes.</p>
@@ -48,8 +48,8 @@ As informações e sugestões obtidas por meio da IA Generativa foram analisadas
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhe da Revisão |
 |:------:|:----:|:----------|:----------|:------------|:-------------------|
-| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
-| 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) |  | Adicionado meus aprendizados sobre o assunto, junto à como a IA generativa foi usado ao longo do trabalho. |
+| 1.0 |  | Criação do documento de IA Generativa da SubEquipe_02. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Isaac Menezes](https://github.com/pratamz250) | Criação da estrutura inicial para registro das lições aprendidas e do uso crítico de IA Generativa pelos integrantes. |
+| 1.1 |  |Adição da minha parte nos aprendizados e uso de IA. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Isaac Menezes](https://github.com/pratamz250) | Adicionado aprendizados sobre o assunto, junto a como a IA generativa foi usado ao longo do trabalho. |
 | 1.2 | 17/09/26 | Inserção de contribuição de uso da IA generativa | [Isaac Menezes](https://github.com/pratamz250) | | Adicionado contribuições cabíveis |
 
 <p align="center">Tabela 3: Histórico de Versões.</p>
