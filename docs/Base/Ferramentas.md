@@ -24,7 +24,7 @@ Todos os participantes do grupo contribuíram para o desenvolvimento das ativida
 | 22/2031680 | Pedro Ramos Sousa Reis | [@PedroRSR](https://github.com/PedroRSR) | 02 |
 | 22/1007644 | Caio Alexandre Ornelas Silva | [@bitterteriyaki](https://github.com/bitterteriyaki) | 03 |
 | 231012227 | Guilherme Moura da Silva Neto | --- | 03 |
-| 221022060 | Leonardo Fachinello Bonetti | --- | 03 |
+| 221022060 | Leonardo Fachinello Bonetti | [@LeoFacB](https://github.com/LeoFacB) | 03 |
 | 231029841 | Pablo Rodrigues Lima | [@Pablo-R-L](https://github.com/Pablo-R-L) | 03 |
 
 <p align="center">Tabela 1: Participantes envolvidos nas atividades da entrega.</p>
