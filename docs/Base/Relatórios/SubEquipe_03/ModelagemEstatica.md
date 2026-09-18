@@ -231,9 +231,9 @@ UML-DIAGRAMS.ORG. **UML Component Diagrams**. Disponível em: [https://www.uml-d
 
 | Nome | % de Contribuição |
 |:---|:---:|
-| [Caio Alexandre](https://github.com/bitterteriyaki) | 30% |
-| [Guilherme Moura](https://github.com/Guilherme-Moura) | 30% |
-| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | |
+| [Caio Alexandre](https://github.com/bitterteriyaki) | 33% |
+| [Guilherme Moura](https://github.com/Guilherme-Moura) | 33% |
+| [Leonardo Fachinello Bonetti](https://github.com/LeoFacB) | 33% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
