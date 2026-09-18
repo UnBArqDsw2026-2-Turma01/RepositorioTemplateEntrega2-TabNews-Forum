@@ -79,7 +79,7 @@ O diagrama organiza a solução em três camadas:
 - **Serviços de Infraestrutura:** o **Banco de Dados (PostgreSQL)**, que persiste usuários, credenciais e sessões; o **Serviço de E-mail**, responsável pelo envio do link de recuperação; e o **Cache / Rate Limit (Upstash Redis)**, que armazena os contadores de requisições utilizados pelo Rate Limiter.
 
 <div align="center">
-<img src="Base/images/diagrama_componentes.png" alt="Diagrama de Componentes da funcionalidade de Login e Autenticação" width="800">
+<img src="Base/images/DiagramaComponentes_Login_TabNews.png" alt="Diagrama de Componentes da funcionalidade de Login e Autenticação" width="800">
 </div>
 
 <p align="center">Figura 3: Diagrama de Componentes — Login e Autenticação. Fonte: SubEquipe_01 (2026).</p>
